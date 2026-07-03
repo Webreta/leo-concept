@@ -90,6 +90,30 @@ async function main() {
     });
   }
 
+  // Örnek ürün: Tuti Koltuk
+  const tekliKoltuk = await prisma.category.findUnique({
+    where: { slug: "tekli-koltuk" },
+  });
+  if (tekliKoltuk && !(await prisma.product.findUnique({ where: { slug: "tuti-koltuk" } }))) {
+    await prisma.product.create({
+      data: {
+        name: "Tuti Koltuk",
+        slug: "tuti-koltuk",
+        description:
+          "Yumuşak hatları ve katmanlı dokusuyla öne çıkan Tuti, oturduğunuz anda sizi saran ergonomik bir konfor sunar.\n\nİskeletsiz, tamamı yüksek yoğunluklu sünger gövdesi sayesinde hem hafif hem de dayanıklıdır. Krem rengi kumaşı, iç mekanlarınıza sıcak ve modern bir dokunuş katar. Dilerseniz puf ile birlikte kombinleyebilirsiniz.",
+        categoryId: tekliKoltuk.id,
+        isFeatured: true,
+        images: {
+          create: [
+            { url: "/uploads/tuti-koltuk-1.png", alt: "Tuti Koltuk", sortOrder: 0 },
+            { url: "/uploads/tuti-koltuk-2.jpg", alt: "Tuti Koltuk ve puf, şömine başında", sortOrder: 1 },
+            { url: "/uploads/tuti-koltuk-3.jpg", alt: "Tuti Koltuk ve puf, üstten görünüm", sortOrder: 2 },
+          ],
+        },
+      },
+    });
+  }
+
   // Mağaza
   if ((await prisma.store.count()) === 0) {
     await prisma.store.create({

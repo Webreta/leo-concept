@@ -22,7 +22,8 @@ export default async function KategoriDetayPage({
   if (!category || !category.isActive) notFound();
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-16 lg:px-8">
+    <div className="bg-white">
+      <div className="mx-auto max-w-7xl px-4 py-16 lg:px-8">
       <nav className="mb-6 text-sm text-ink/60">
         <Link href="/kategoriler" className="hover:text-bronze">
           Kategoriler
@@ -39,14 +40,20 @@ export default async function KategoriDetayPage({
           Bu kategoriye henüz ürün eklenmedi.
         </p>
       ) : (
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {category.products.map((product) => (
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          {category.products.map((product, i) => (
             <Link
               key={product.id}
               href={`/urunler/${product.slug}`}
               className="group"
             >
-              <div className="relative aspect-[4/3] overflow-hidden bg-sand">
+              <div
+                className={`aspect-[4/3] overflow-hidden bg-sand ${
+                  i % 2 === 0
+                    ? "rounded-[2rem] rounded-tr-[6rem]"
+                    : "rounded-[2rem] rounded-bl-[6rem]"
+                }`}
+              >
                 {product.images[0] && (
                   // eslint-disable-next-line @next/next/no-img-element
                   <img
@@ -56,13 +63,18 @@ export default async function KategoriDetayPage({
                   />
                 )}
               </div>
-              <h2 className="mt-4 text-xl transition-colors group-hover:text-bronze">
-                {product.name}
-              </h2>
+              <div className="mt-4 flex items-center gap-4">
+                <h2 className="whitespace-nowrap text-xl">{product.name}</h2>
+                <span className="h-px flex-1 bg-charcoal/40" />
+                <span className="rounded-full border border-charcoal px-4 py-1.5 text-xs font-semibold transition-colors group-hover:bg-charcoal group-hover:text-ivory">
+                  İncele
+                </span>
+              </div>
             </Link>
           ))}
         </div>
       )}
+      </div>
     </div>
   );
 }
