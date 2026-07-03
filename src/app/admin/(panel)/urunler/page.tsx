@@ -55,6 +55,15 @@ export default async function AdminUrunlerPage({
           <Field label="Açıklama">
             <textarea name="description" rows={4} defaultValue={editing?.description ?? ""} className={inputCls} />
           </Field>
+          <Field label="Özellikler (her satıra bir: Etiket | Değer)">
+            <textarea
+              name="features"
+              rows={4}
+              defaultValue={editing?.features ?? ""}
+              placeholder={"Ölçüler | 102 × 88 × 70 cm\nKumaş | Leke tutmaz kumaş\nGaranti | 2 yıl"}
+              className={inputCls}
+            />
+          </Field>
           <Field label="Görsel URL'leri (her satıra bir adet)">
             <textarea
               name="imageUrls"

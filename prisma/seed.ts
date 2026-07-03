@@ -30,6 +30,7 @@ async function main() {
       id: 1,
       siteName: "LEO Concept",
       phone: "+90 232 445 72 77",
+      whatsapp: "902324457277",
       email: "info@leoconcept.com.tr",
       address: "Hürriyet Mh. Süleyman Demirel Cd. No:16 Menderes / İzmir",
       footerText:
@@ -38,6 +39,11 @@ async function main() {
       metaDescription:
         "LEO Concept, iç ve dış mekan mobilyalarında özgün tasarımlar sunar.",
     },
+  });
+  // Mevcut kurulumlarda boşsa WhatsApp numarasını doldur
+  await prisma.siteSettings.updateMany({
+    where: { id: 1, whatsapp: null },
+    data: { whatsapp: "902324457277" },
   });
 
   // Hero slide
@@ -94,13 +100,24 @@ async function main() {
   const tekliKoltuk = await prisma.category.findUnique({
     where: { slug: "tekli-koltuk" },
   });
-  if (tekliKoltuk && !(await prisma.product.findUnique({ where: { slug: "tuti-koltuk" } }))) {
-    await prisma.product.create({
-      data: {
+  const tutiFeatures = [
+    "Ölçüler | 102 × 88 × 70 cm",
+    "Kumaş | Leke tutmaz, yıkanabilir kumaş",
+    "Gövde | İskeletsiz, yüksek yoğunluklu sünger",
+    "Renk | Krem (farklı renk seçenekleri mevcut)",
+    "Garanti | 2 yıl üretici garantisi",
+    "Teslimat | Kurulum gerektirmez",
+  ].join("\n");
+  if (tekliKoltuk) {
+    await prisma.product.upsert({
+      where: { slug: "tuti-koltuk" },
+      update: { features: tutiFeatures },
+      create: {
         name: "Tuti Koltuk",
         slug: "tuti-koltuk",
         description:
           "Yumuşak hatları ve katmanlı dokusuyla öne çıkan Tuti, oturduğunuz anda sizi saran ergonomik bir konfor sunar.\n\nİskeletsiz, tamamı yüksek yoğunluklu sünger gövdesi sayesinde hem hafif hem de dayanıklıdır. Krem rengi kumaşı, iç mekanlarınıza sıcak ve modern bir dokunuş katar. Dilerseniz puf ile birlikte kombinleyebilirsiniz.",
+        features: tutiFeatures,
         categoryId: tekliKoltuk.id,
         isFeatured: true,
         images: {

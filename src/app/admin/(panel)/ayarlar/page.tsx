@@ -28,6 +28,9 @@ export default async function AdminAyarlarPage() {
             <input name="email" defaultValue={s?.email ?? ""} className={inputCls} />
           </Field>
         </div>
+        <Field label="WhatsApp Numarası (uluslararası format, ör. 902324457277)">
+          <input name="whatsapp" defaultValue={s?.whatsapp ?? ""} className={inputCls} />
+        </Field>
         <Field label="Adres">
           <textarea name="address" rows={2} defaultValue={s?.address ?? ""} className={inputCls} />
         </Field>

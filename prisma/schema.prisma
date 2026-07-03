@@ -21,6 +21,7 @@ model SiteSettings {
   siteName      String  @default("LEO Concept")
   logoUrl       String?
   phone         String?
+  whatsapp      String?
   email         String?
   address       String?
   facebookUrl   String?
@@ -66,6 +67,8 @@ model Product {
   name        String
   slug        String         @unique
   description String?
+  // Her satıra bir özellik: "Etiket | Değer" (ör. "Ölçüler | 102 × 88 cm")
+  features    String?
   categoryId  String
   category    Category       @relation(fields: [categoryId], references: [id], onDelete: Cascade)
   isFeatured  Boolean        @default(false)
