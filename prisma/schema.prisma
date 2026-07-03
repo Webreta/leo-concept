@@ -1,0 +1,122 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+model AdminUser {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  passwordHash String
+  name         String
+  createdAt    DateTime @default(now())
+}
+
+// Tekil kayıt: sitenin genel ayarları (logo, iletişim, sosyal medya vs.)
+model SiteSettings {
+  id            Int     @id @default(1)
+  siteName      String  @default("LEO Concept")
+  logoUrl       String?
+  phone         String?
+  email         String?
+  address       String?
+  facebookUrl   String?
+  instagramUrl  String?
+  linkedinUrl   String?
+  footerText    String?
+  metaTitle     String?
+  metaDescription String?
+}
+
+model HeroSlide {
+  id        String  @id @default(cuid())
+  title     String
+  subtitle  String?
+  imageUrl  String
+  buttonText String?
+  buttonUrl String?
+  sortOrder Int     @default(0)
+  isActive  Boolean @default(true)
+}
+
+model Category {
+  id          String    @id @default(cuid())
+  name        String
+  slug        String    @unique
+  description String?
+  imageUrl    String?
+  // "ic-mekan" | "dis-mekan"
+  area        String    @default("ic-mekan")
+  sortOrder   Int       @default(0)
+  isActive    Boolean   @default(true)
+  products    Product[]
+  createdAt   DateTime  @default(now())
+}
+
+model Product {
+  id          String         @id @default(cuid())
+  name        String
+  slug        String         @unique
+  description String?
+  categoryId  String
+  category    Category       @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+  isFeatured  Boolean        @default(false)
+  sortOrder   Int            @default(0)
+  isActive    Boolean        @default(true)
+  images      ProductImage[]
+  createdAt   DateTime       @default(now())
+}
+
+model ProductImage {
+  id        String  @id @default(cuid())
+  url       String
+  alt       String?
+  sortOrder Int     @default(0)
+  productId String
+  product   Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+}
+
+// Kataloglar / koleksiyonlar
+model Collection {
+  id          String   @id @default(cuid())
+  name        String
+  slug        String   @unique
+  description String?
+  coverUrl    String?
+  pdfUrl      String?
+  sortOrder   Int      @default(0)
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+}
+
+model Store {
+  id        String  @id @default(cuid())
+  name      String
+  address   String
+  phone     String?
+  mapUrl    String?
+  imageUrl  String?
+  sortOrder Int     @default(0)
+  isActive  Boolean @default(true)
+}
+
+model Faq {
+  id        String  @id @default(cuid())
+  question  String
+  answer    String
+  sortOrder Int     @default(0)
+  isActive  Boolean @default(true)
+}
+
+model ContactMessage {
+  id        String   @id @default(cuid())
+  name      String
+  email     String
+  phone     String?
+  message   String
+  isRead    Boolean  @default(false)
+  createdAt DateTime @default(now())
+}
