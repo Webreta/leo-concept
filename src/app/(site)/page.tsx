@@ -138,6 +138,7 @@ function AreaIntro({
   imageSide: "left" | "right";
 }) {
   const imageLeft = imageSide === "left";
+  const rowDir = imageLeft ? "" : "flex-row-reverse";
 
   return (
     <div className="mx-auto max-w-[100rem]">
@@ -164,42 +165,52 @@ function AreaIntro({
           </div>
         </div>
 
-        {/* İçerik */}
-        <div className="px-6 lg:w-[45%] lg:px-0">
-          <h2
-            className={`text-4xl md:text-5xl ${
-              imageLeft ? "lg:pl-16" : "text-right lg:pr-16 lg:text-left lg:pl-24"
-            }`}
-          >
-            {title}
-          </h2>
-
-          {/* Çizgi + pill buton */}
-          <div
-            className={`mt-6 flex items-center ${
-              imageLeft ? "" : "flex-row-reverse"
-            }`}
-          >
-            <span className="h-px flex-1 bg-charcoal/70" />
-            <Link
-              href={href}
-              className={`whitespace-nowrap rounded-full border border-charcoal bg-white px-6 py-2.5 text-sm font-semibold transition-colors hover:bg-charcoal hover:text-ivory ${
-                imageLeft ? "mr-6 lg:mr-16" : "ml-6 lg:ml-16"
-              }`}
-            >
-              Kategorileri İncele
-            </Link>
+        {/* İçerik: başlık ve açıklama, çizginin ortasına hizalı.
+            Görünmez buton kopyaları çizgi segmentiyle aynı genişliği korur. */}
+        <div className="px-6 lg:w-[45%] lg:px-12">
+          <div className={`flex items-end gap-6 ${rowDir}`}>
+            <h2 className="flex-1 text-center text-4xl md:text-5xl">{title}</h2>
+            <PillButton href={href} invisible />
           </div>
 
-          <p
-            className={`mt-4 text-sm text-ink/60 ${
-              imageLeft ? "lg:pl-16" : "lg:pl-24"
-            }`}
-          >
-            {text}
-          </p>
+          <div className={`mt-2 flex items-center gap-6 ${rowDir}`}>
+            <span className="h-px flex-1 bg-charcoal/70" />
+            <PillButton href={href} />
+          </div>
+
+          <div className={`mt-2 flex items-start gap-6 ${rowDir}`}>
+            <p className="flex-1 text-center text-sm text-ink/60">{text}</p>
+            <PillButton href={href} invisible />
+          </div>
         </div>
       </div>
     </div>
+  );
+}
+
+function PillButton({
+  href,
+  invisible = false,
+}: {
+  href: string;
+  invisible?: boolean;
+}) {
+  const base =
+    "whitespace-nowrap rounded-full border border-charcoal bg-white px-6 py-2.5 text-sm font-semibold";
+  if (invisible) {
+    // Başlık/açıklamayı çizgiyle aynı eksende ortalamak için yer tutucu
+    return (
+      <span aria-hidden className={`${base} invisible hidden lg:inline-block`}>
+        Kategorileri İncele
+      </span>
+    );
+  }
+  return (
+    <Link
+      href={href}
+      className={`${base} inline-block transition-colors hover:bg-charcoal hover:text-ivory`}
+    >
+      Kategorileri İncele
+    </Link>
   );
 }
