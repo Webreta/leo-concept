@@ -44,7 +44,7 @@ prisma/*.db-journal
 # kullanıcı yüklemeleri
 /public/uploads/*
 !/public/uploads/.gitkeep
-!/public/uploads/placeholder-hero.svg
+!/public/uploads/placeholder-*.svg
 
 # vercel
 .vercel

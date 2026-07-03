@@ -43,6 +43,16 @@ export default async function AdminAyarlarPage() {
           <input name="linkedinUrl" defaultValue={s?.linkedinUrl ?? ""} className={inputCls} />
         </Field>
 
+        <h2 className="pt-4 text-lg">Ana Sayfa Blokları</h2>
+        <ImageInput name="outdoorImageUrl" label="Dış Mekan Görseli" defaultValue={s?.outdoorImageUrl} />
+        <Field label="Dış Mekan Metni">
+          <input name="outdoorText" defaultValue={s?.outdoorText ?? ""} className={inputCls} />
+        </Field>
+        <ImageInput name="indoorImageUrl" label="İç Mekan Görseli" defaultValue={s?.indoorImageUrl} />
+        <Field label="İç Mekan Metni">
+          <input name="indoorText" defaultValue={s?.indoorText ?? ""} className={inputCls} />
+        </Field>
+
         <h2 className="pt-4 text-lg">İçerik &amp; SEO</h2>
         <Field label="Footer Metni">
           <textarea name="footerText" rows={2} defaultValue={s?.footerText ?? ""} className={inputCls} />

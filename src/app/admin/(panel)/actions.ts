@@ -259,6 +259,10 @@ export async function saveSettings(formData: FormData) {
     footerText: optStr(formData, "footerText"),
     metaTitle: optStr(formData, "metaTitle"),
     metaDescription: optStr(formData, "metaDescription"),
+    outdoorImageUrl: optStr(formData, "outdoorImageUrl"),
+    outdoorText: optStr(formData, "outdoorText"),
+    indoorImageUrl: optStr(formData, "indoorImageUrl"),
+    indoorText: optStr(formData, "indoorText"),
   };
   await prisma.siteSettings.upsert({
     where: { id: 1 },

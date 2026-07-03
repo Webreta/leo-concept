@@ -3,39 +3,111 @@ import { prisma } from "@/lib/prisma";
 
 export const metadata = { title: "Kategoriler | LEO Concept" };
 
-export default async function KategorilerPage() {
+export default async function KategorilerPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ alan?: string }>;
+}) {
+  const { alan } = await searchParams;
   const categories = await prisma.category.findMany({
-    where: { isActive: true },
+    where: { isActive: true, ...(alan ? { area: alan } : {}) },
     orderBy: { sortOrder: "asc" },
   });
 
+  const groups = [
+    { key: "dis-mekan", title: "Dış Mekan" },
+    { key: "ic-mekan", title: "İç Mekan" },
+  ].filter((g) => categories.some((c) => c.area === g.key));
+
   return (
-    <div className="mx-auto max-w-7xl px-4 py-16 lg:px-8">
-      <h1 className="mb-12 text-center text-4xl md:text-5xl">Kategoriler</h1>
-      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-        {categories.map((cat) => (
-          <Link
-            key={cat.id}
-            href={`/kategoriler/${cat.slug}`}
-            className="group relative flex aspect-square items-end overflow-hidden bg-sand"
-          >
-            {cat.imageUrl && (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img
-                src={cat.imageUrl}
-                alt={cat.name}
-                className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-              />
-            )}
-            <div className="relative z-10 w-full bg-gradient-to-t from-charcoal/80 to-transparent p-5 text-ivory">
-              <h2 className="text-xl">{cat.name}</h2>
-              <span className="mt-1 block text-xs tracking-widest uppercase text-bronze">
-                İncele →
-              </span>
+    <div className="bg-white">
+      <div className="mx-auto max-w-7xl px-4 py-16 lg:px-8">
+        <h1 className="mb-4 text-center text-4xl md:text-5xl">Kategoriler</h1>
+        <div className="mx-auto mb-14 flex max-w-md items-center justify-center gap-3 text-sm font-semibold">
+          <FilterPill href="/kategoriler" active={!alan} label="Tümü" />
+          <FilterPill
+            href="/kategoriler?alan=dis-mekan"
+            active={alan === "dis-mekan"}
+            label="Dış Mekan"
+          />
+          <FilterPill
+            href="/kategoriler?alan=ic-mekan"
+            active={alan === "ic-mekan"}
+            label="İç Mekan"
+          />
+        </div>
+
+        {groups.map((group) => (
+          <section key={group.key} className="mb-16 last:mb-0">
+            <div className="mb-8 flex items-center gap-6">
+              <h2 className="whitespace-nowrap text-2xl md:text-3xl">
+                {group.title}
+              </h2>
+              <span className="h-px flex-1 bg-charcoal/30" />
             </div>
-          </Link>
+            <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+              {categories
+                .filter((c) => c.area === group.key)
+                .map((cat, i) => (
+                  <Link key={cat.id} href={`/kategoriler/${cat.slug}`} className="group">
+                    <div
+                      className={`aspect-[4/3] overflow-hidden bg-sand ${
+                        i % 2 === 0
+                          ? "rounded-[2rem] rounded-tr-[6rem]"
+                          : "rounded-[2rem] rounded-bl-[6rem]"
+                      }`}
+                    >
+                      {cat.imageUrl && (
+                        // eslint-disable-next-line @next/next/no-img-element
+                        <img
+                          src={cat.imageUrl}
+                          alt={cat.name}
+                          className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                        />
+                      )}
+                    </div>
+                    <div className="mt-4 flex items-center gap-4">
+                      <h3 className="whitespace-nowrap text-xl">{cat.name}</h3>
+                      <span className="h-px flex-1 bg-charcoal/40" />
+                      <span className="rounded-full border border-charcoal px-4 py-1.5 text-xs font-semibold transition-colors group-hover:bg-charcoal group-hover:text-ivory">
+                        İncele
+                      </span>
+                    </div>
+                  </Link>
+                ))}
+            </div>
+          </section>
         ))}
+
+        {categories.length === 0 && (
+          <p className="py-20 text-center text-ink/50">
+            Bu alanda henüz kategori yok.
+          </p>
+        )}
       </div>
     </div>
+  );
+}
+
+function FilterPill({
+  href,
+  active,
+  label,
+}: {
+  href: string;
+  active: boolean;
+  label: string;
+}) {
+  return (
+    <Link
+      href={href}
+      className={`rounded-full border px-5 py-2 transition-colors ${
+        active
+          ? "border-charcoal bg-charcoal text-ivory"
+          : "border-charcoal/40 hover:border-charcoal"
+      }`}
+    >
+      {label}
+    </Link>
   );
 }

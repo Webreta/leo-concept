@@ -2,12 +2,8 @@ import Link from "next/link";
 import { prisma } from "@/lib/prisma";
 
 export default async function HomePage() {
-  const [slides, categories, collections] = await Promise.all([
+  const [slides, collections, settings] = await Promise.all([
     prisma.heroSlide.findMany({
-      where: { isActive: true },
-      orderBy: { sortOrder: "asc" },
-    }),
-    prisma.category.findMany({
       where: { isActive: true },
       orderBy: { sortOrder: "asc" },
     }),
@@ -15,11 +11,10 @@ export default async function HomePage() {
       where: { isActive: true },
       orderBy: { sortOrder: "asc" },
     }),
+    prisma.siteSettings.findUnique({ where: { id: 1 } }),
   ]);
 
   const hero = slides[0];
-  const icMekan = categories.filter((c) => c.area === "ic-mekan");
-  const disMekan = categories.filter((c) => c.area === "dis-mekan");
 
   return (
     <>
@@ -43,7 +38,7 @@ export default async function HomePage() {
           {hero?.buttonText && hero.buttonUrl && (
             <Link
               href={hero.buttonUrl}
-              className="mt-8 inline-block border border-bronze bg-bronze/90 px-8 py-3 text-sm tracking-widest uppercase transition-colors hover:bg-bronze-dark"
+              className="mt-8 inline-block rounded-full border border-ivory/60 px-8 py-3 text-sm font-semibold tracking-wide transition-colors hover:border-bronze hover:text-bronze"
             >
               {hero.buttonText}
             </Link>
@@ -51,15 +46,35 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* İç Mekan */}
-      <CategorySection title="İç Mekan" items={icMekan} />
-
-      {/* Dış Mekan */}
-      {disMekan.length > 0 && (
-        <div className="bg-sand">
-          <CategorySection title="Dış Mekan" items={disMekan} />
+      {/* Dış Mekan / İç Mekan tanıtım blokları */}
+      <section className="bg-white py-16 lg:py-24">
+        <div className="space-y-20 lg:space-y-28">
+          <AreaIntro
+            title="Dış Mekan"
+            text={
+              settings?.outdoorText ??
+              "Bahçenize ve terasınıza konforu taşıyan dış mekan tasarımları"
+            }
+            imageUrl={
+              settings?.outdoorImageUrl ?? "/uploads/placeholder-dis-mekan.svg"
+            }
+            href="/kategoriler?alan=dis-mekan"
+            imageSide="left"
+          />
+          <AreaIntro
+            title="İç Mekan"
+            text={
+              settings?.indoorText ??
+              "Yaşam alanlarınıza zarafet katan iç mekan koleksiyonları"
+            }
+            imageUrl={
+              settings?.indoorImageUrl ?? "/uploads/placeholder-ic-mekan.svg"
+            }
+            href="/kategoriler?alan=ic-mekan"
+            imageSide="right"
+          />
         </div>
-      )}
+      </section>
 
       {/* Koleksiyonlar */}
       <section className="mx-auto max-w-7xl px-4 py-20 lg:px-8">
@@ -69,7 +84,7 @@ export default async function HomePage() {
             <Link
               key={c.id}
               href="/kataloglar"
-              className="group relative flex aspect-[3/4] items-end overflow-hidden bg-charcoal"
+              className="group relative flex aspect-[3/4] items-end overflow-hidden rounded-[2rem] bg-charcoal"
             >
               {c.coverUrl && (
                 // eslint-disable-next-line @next/next/no-img-element
@@ -97,7 +112,7 @@ export default async function HomePage() {
           </p>
           <Link
             href="/ozel-tasarim"
-            className="mt-8 inline-block border border-ivory/40 px-8 py-3 text-sm tracking-widest uppercase transition-colors hover:border-bronze hover:text-bronze"
+            className="mt-8 inline-block rounded-full border border-ivory/40 px-8 py-3 text-sm font-semibold tracking-wide transition-colors hover:border-bronze hover:text-bronze"
           >
             Detaylı Bilgi
           </Link>
@@ -107,40 +122,84 @@ export default async function HomePage() {
   );
 }
 
-function CategorySection({
+// Ekran görüntüsündeki blok: kenarı pill formunda ovalleşen geniş görsel,
+// büyük başlık, görselden pill butona uzanan ince çizgi.
+function AreaIntro({
   title,
-  items,
+  text,
+  imageUrl,
+  href,
+  imageSide,
 }: {
   title: string;
-  items: { id: string; name: string; slug: string; imageUrl: string | null }[];
+  text: string;
+  imageUrl: string;
+  href: string;
+  imageSide: "left" | "right";
 }) {
+  const imageLeft = imageSide === "left";
+
   return (
-    <section className="mx-auto max-w-7xl px-4 py-20 lg:px-8">
-      <h2 className="mb-10 text-center text-3xl md:text-4xl">{title}</h2>
-      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-        {items.map((cat) => (
-          <Link
-            key={cat.id}
-            href={`/kategoriler/${cat.slug}`}
-            className="group relative flex aspect-square items-end overflow-hidden bg-sand"
+    <div className="mx-auto max-w-[100rem]">
+      <div
+        className={`flex flex-col gap-8 lg:flex-row lg:items-center lg:gap-0 ${
+          imageLeft ? "" : "lg:flex-row-reverse"
+        }`}
+      >
+        {/* Görsel */}
+        <div className={`lg:w-[55%] ${imageLeft ? "lg:pr-0" : "lg:pl-0"}`}>
+          <div
+            className={`aspect-[5/2] overflow-hidden bg-sand ${
+              imageLeft
+                ? "rounded-r-full lg:ml-16"
+                : "rounded-l-full lg:mr-16"
+            }`}
           >
-            {cat.imageUrl && (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img
-                src={cat.imageUrl}
-                alt={cat.name}
-                className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-              />
-            )}
-            <div className="relative z-10 w-full bg-gradient-to-t from-charcoal/80 to-transparent p-5 text-ivory">
-              <h3 className="text-xl">{cat.name}</h3>
-              <span className="mt-1 block text-xs tracking-widest uppercase text-bronze">
-                İncele →
-              </span>
-            </div>
-          </Link>
-        ))}
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={imageUrl}
+              alt={title}
+              className="h-full w-full object-cover"
+            />
+          </div>
+        </div>
+
+        {/* İçerik */}
+        <div className="px-6 lg:w-[45%] lg:px-0">
+          <h2
+            className={`text-4xl md:text-5xl ${
+              imageLeft ? "lg:pl-16" : "text-right lg:pr-16 lg:text-left lg:pl-24"
+            }`}
+          >
+            {title}
+          </h2>
+
+          {/* Çizgi + pill buton */}
+          <div
+            className={`mt-6 flex items-center ${
+              imageLeft ? "" : "flex-row-reverse"
+            }`}
+          >
+            <span className="h-px flex-1 bg-charcoal/70" />
+            <Link
+              href={href}
+              className={`whitespace-nowrap rounded-full border border-charcoal bg-white px-6 py-2.5 text-sm font-semibold transition-colors hover:bg-charcoal hover:text-ivory ${
+                imageLeft ? "mr-6 lg:mr-16" : "ml-6 lg:ml-16"
+              }`}
+            >
+              Kategorileri İncele
+            </Link>
+          </div>
+
+          <p
+            className={`mt-4 text-sm text-ink/60 ${
+              imageLeft ? "lg:pl-16" : "lg:pl-24"
+            }`}
+          >
+            {text}
+          </p>
+        </div>
       </div>
-    </section>
+    </div>
   );
 }

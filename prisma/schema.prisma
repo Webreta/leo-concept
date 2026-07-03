@@ -29,6 +29,11 @@ model SiteSettings {
   footerText    String?
   metaTitle     String?
   metaDescription String?
+  // Ana sayfa İç/Dış Mekan tanıtım blokları
+  outdoorImageUrl String?
+  outdoorText     String?
+  indoorImageUrl  String?
+  indoorText      String?
 }
 
 model HeroSlide {

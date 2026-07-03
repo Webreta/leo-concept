@@ -9,7 +9,7 @@
   --color-bronze: #a8834f;
   --color-bronze-dark: #8a6a3d;
 
-  --font-heading: var(--font-playfair), Georgia, serif;
+  --font-heading: var(--font-poppins), system-ui, sans-serif;
   --font-body: var(--font-inter), system-ui, sans-serif;
 }
 
@@ -21,4 +21,5 @@ body {
 
 h1, h2, h3, h4 {
   font-family: var(--font-heading);
+  font-weight: 600;
 }
