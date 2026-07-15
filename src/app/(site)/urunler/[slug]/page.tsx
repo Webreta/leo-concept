@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { prisma } from "@/lib/prisma";
 import ProductGallery from "@/components/site/ProductGallery";
+import QuoteModal from "@/components/site/QuoteModal";
 
 export default async function UrunDetayPage({
   params,
@@ -64,7 +65,7 @@ export default async function UrunDetayPage({
           / <span className="text-ink">{product.name}</span>
         </nav>
 
-        <div className="grid gap-12 lg:grid-cols-2 lg:gap-16">
+        <div className="grid gap-12 lg:grid-cols-[3fr_2fr] lg:gap-14">
           <ProductGallery images={product.images} productName={product.name} />
 
           <div className="lg:pt-4">
@@ -75,12 +76,7 @@ export default async function UrunDetayPage({
 
             <div className="mt-5 flex items-center gap-6">
               <span className="h-px flex-1 bg-charcoal/40" />
-              <Link
-                href="/iletisim"
-                className="whitespace-nowrap rounded-full border border-charcoal bg-white px-6 py-2.5 text-sm font-semibold transition-colors hover:bg-charcoal hover:text-ivory"
-              >
-                Bilgi &amp; Teklif Al
-              </Link>
+              <QuoteModal productName={product.name} />
             </div>
 
             {product.description && (
@@ -197,7 +193,7 @@ export default async function UrunDetayPage({
               {related.map((p, i) => (
                 <Link key={p.id} href={`/urunler/${p.slug}`} className="group">
                   <div
-                    className={`aspect-[4/3] overflow-hidden bg-sand ${
+                    className={`flex aspect-[4/3] items-center justify-center overflow-hidden bg-sand p-4 ${
                       i % 2 === 0
                         ? "rounded-[2rem] rounded-tr-[6rem]"
                         : "rounded-[2rem] rounded-bl-[6rem]"
@@ -208,7 +204,7 @@ export default async function UrunDetayPage({
                       <img
                         src={p.images[0].url}
                         alt={p.images[0].alt ?? p.name}
-                        className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                        className="max-h-full max-w-full object-contain transition-transform duration-500 group-hover:scale-105"
                       />
                     )}
                   </div>

@@ -14,6 +14,11 @@ export default async function SiteLayout({
       <Header
         siteName={settings?.siteName ?? "LEO Concept"}
         logoUrl={settings?.logoUrl}
+        socials={[
+          { label: "Instagram", url: settings?.instagramUrl ?? "" },
+          { label: "Facebook", url: settings?.facebookUrl ?? "" },
+          { label: "LinkedIn", url: settings?.linkedinUrl ?? "" },
+        ].filter((s) => s.url)}
       />
       <main className="flex-1">{children}</main>
       <Footer settings={settings} />

@@ -45,11 +45,15 @@ export default function ProductGallery({
         className="block w-full cursor-zoom-in overflow-hidden rounded-[2rem] rounded-tr-[6rem] bg-sand"
         aria-label="Görseli büyüt"
       >
+        {/* İlk görsel transparan stüdyo çekimi: boşluklu ortala.
+            Diğerleri yaşam alanı fotoğrafı: çerçeveyi tamamen doldur. */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={current.url}
           alt={current.alt ?? productName}
-          className="aspect-[4/3] w-full object-cover transition-transform duration-500 hover:scale-105"
+          className={`aspect-[4/3] w-full transition-transform duration-500 hover:scale-105 ${
+            active === 0 ? "object-contain p-4 sm:p-6" : "object-cover"
+          }`}
         />
       </button>
 
@@ -61,7 +65,7 @@ export default function ProductGallery({
               key={img.id}
               type="button"
               onClick={() => setActive(i)}
-              className={`w-24 overflow-hidden rounded-2xl border-2 transition-colors ${
+              className={`w-28 overflow-hidden rounded-2xl border-2 bg-sand transition-colors sm:w-32 ${
                 i === active
                   ? "border-bronze"
                   : "border-transparent hover:border-charcoal/30"

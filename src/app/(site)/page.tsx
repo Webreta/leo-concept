@@ -1,4 +1,5 @@
 import Link from "next/link";
+import CatalogCard from "@/components/site/CatalogCard";
 import { prisma } from "@/lib/prisma";
 
 export default async function HomePage() {
@@ -18,31 +19,47 @@ export default async function HomePage() {
 
   return (
     <>
-      {/* Hero */}
-      <section className="relative flex min-h-[70vh] items-center justify-center overflow-hidden bg-charcoal text-center text-ivory">
-        {hero?.imageUrl && (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img
-            src={hero.imageUrl}
-            alt={hero.title}
-            className="absolute inset-0 h-full w-full object-cover opacity-50"
-          />
-        )}
-        <div className="relative z-10 max-w-3xl px-4">
-          <h1 className="text-4xl leading-tight md:text-6xl">
-            {hero?.title ?? "Keşfetmekten Vazgeçmeyenlere"}
-          </h1>
-          {hero?.subtitle && (
-            <p className="mt-5 text-lg text-ivory/80">{hero.subtitle}</p>
-          )}
-          {hero?.buttonText && hero.buttonUrl && (
+      {/* Hero: sayfanın en tepesinden başlayan video, header üzerine şeffaf biner */}
+      <section className="relative flex min-h-[100svh] items-center overflow-hidden bg-charcoal text-ivory">
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="metadata"
+          className="absolute inset-0 h-full w-full object-cover"
+        >
+          <source src="/medya/leo-hero-video.mp4" type="video/mp4" />
+        </video>
+        {/* Sol taraftaki yazının okunabilirliği için gradyan katmanlar */}
+        <div className="absolute inset-0 bg-gradient-to-r from-charcoal/75 via-charcoal/30 to-transparent" />
+        <div className="absolute inset-x-0 top-0 h-44 bg-gradient-to-b from-charcoal/60 to-transparent" />
+
+        <div className="relative z-10 mx-auto w-full max-w-[100rem] px-6 pt-24 sm:px-10 lg:px-16">
+          <div className="max-w-2xl">
+            <p className="text-[11px] font-medium uppercase tracking-[0.4em] text-bronze">
+              LEO Concept
+            </p>
+            <h1 className="mt-5 text-4xl font-light leading-[1.08] tracking-wide md:text-6xl lg:text-7xl">
+              {hero?.title ?? "Keşfetmekten Vazgeçmeyenlere"}
+            </h1>
+            <p className="mt-6 max-w-xl text-base font-light leading-relaxed text-ivory/75 md:text-lg">
+              {hero?.subtitle ??
+                "Zamansız çizgiler, doğal dokular ve zarif detaylarla; iç ve dış mekanlarınıza karakter katan tasarımlar."}
+            </p>
             <Link
-              href={hero.buttonUrl}
-              className="mt-8 inline-block rounded-full border border-ivory/60 px-8 py-3 text-sm font-semibold tracking-wide transition-colors hover:border-bronze hover:text-bronze"
+              href={hero?.buttonUrl ?? "/kategoriler"}
+              className="group mt-10 inline-flex items-center gap-3 rounded-full border border-ivory/50 px-8 py-3.5 text-sm font-medium tracking-[0.15em] uppercase transition-colors duration-300 hover:border-bronze hover:text-bronze"
             >
-              {hero.buttonText}
+              {hero?.buttonText ?? "Kategorileri Keşfet"}
+              <span
+                aria-hidden
+                className="transition-transform duration-300 group-hover:translate-x-1.5"
+              >
+                →
+              </span>
             </Link>
-          )}
+          </div>
         </div>
       </section>
 
@@ -79,25 +96,14 @@ export default async function HomePage() {
       {/* Koleksiyonlar */}
       <section className="mx-auto max-w-7xl px-4 py-20 lg:px-8">
         <h2 className="mb-10 text-center text-3xl md:text-4xl">Kataloglar</h2>
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {collections.map((c) => (
-            <Link
+            <CatalogCard
               key={c.id}
-              href="/kataloglar"
-              className="group relative flex aspect-[3/4] items-end overflow-hidden rounded-[2rem] bg-charcoal"
-            >
-              {c.coverUrl && (
-                // eslint-disable-next-line @next/next/no-img-element
-                <img
-                  src={c.coverUrl}
-                  alt={c.name}
-                  className="absolute inset-0 h-full w-full object-cover opacity-70 transition-transform duration-500 group-hover:scale-105"
-                />
-              )}
-              <div className="relative z-10 w-full bg-gradient-to-t from-charcoal/90 to-transparent p-5 text-ivory">
-                <h3 className="text-xl">{c.name}</h3>
-              </div>
-            </Link>
+              name={c.name}
+              slug={c.slug}
+              coverUrl={c.coverUrl}
+            />
           ))}
         </div>
       </section>
@@ -118,7 +124,101 @@ export default async function HomePage() {
           </Link>
         </div>
       </section>
+
+      {/* Şubeler */}
+      <section className="bg-white py-20 lg:py-24">
+        <div className="mx-auto max-w-7xl px-4 lg:px-8">
+          <p className="text-center text-[11px] font-medium uppercase tracking-[0.4em] text-bronze">
+            Sizi Bekliyoruz
+          </p>
+          <h2 className="mt-3 text-center text-3xl md:text-4xl">Şubeler</h2>
+          <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            {branches.map((b) => (
+              <BranchCard key={b.name} {...b} />
+            ))}
+          </div>
+        </div>
+      </section>
     </>
+  );
+}
+
+// Demo şube içerikleri — gerçek adres/telefon bilgileri netleşince güncellenecek.
+const branches = [
+  {
+    name: "Çeşme",
+    address: "İnönü Mah. 5031 Sk. No:12, Çeşme / İzmir",
+    phone: "+90 232 000 00 01",
+    hours: "Her gün 09.00 – 19.00",
+    imageUrl: "/uploads/kategori-koltuk-takimi-kanepe.jpg",
+    mapUrl: "https://maps.google.com/?q=LEO+Concept+Çeşme",
+  },
+  {
+    name: "Bodrum",
+    address: "Konacık Mah. Atatürk Blv. No:48, Bodrum / Muğla",
+    phone: "+90 252 000 00 02",
+    hours: "Her gün 09.00 – 19.00",
+    imageUrl: "/uploads/kategori-tekli-koltuk.jpg",
+    mapUrl: "https://maps.google.com/?q=LEO+Concept+Bodrum",
+  },
+  {
+    name: "Menderes",
+    address: "Cüneytbey Mah. İzmir Cad. No:210, Menderes / İzmir",
+    phone: "+90 232 000 00 03",
+    hours: "Her gün 09.00 – 19.00",
+    imageUrl: "/uploads/kategori-vitrin-konsol.jpg",
+    mapUrl: "https://maps.google.com/?q=LEO+Concept+Menderes",
+  },
+];
+
+// Şube kartı: görsel üzerine charcoal gradyan, altta adres ve iletişim;
+// köşe dili katalog kartlarıyla aynı (büyük sağ-üst radius).
+function BranchCard({
+  name,
+  address,
+  phone,
+  hours,
+  imageUrl,
+  mapUrl,
+}: (typeof branches)[number]) {
+  return (
+    <div className="group relative aspect-[4/5] overflow-hidden rounded-[2rem] rounded-tr-[6rem] bg-charcoal text-ivory shadow-lg">
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src={imageUrl}
+        alt={`LEO Concept ${name} şubesi`}
+        loading="lazy"
+        className="absolute inset-0 h-full w-full object-cover opacity-90 transition-transform duration-700 group-hover:scale-105"
+      />
+      <div className="absolute inset-0 bg-gradient-to-t from-charcoal via-charcoal/40 to-transparent" />
+
+      <div className="absolute inset-x-0 bottom-0 p-7">
+        <p className="text-[10px] font-medium uppercase tracking-[0.35em] text-bronze">
+          Şube
+        </p>
+        <h3 className="mt-1.5 text-3xl">{name}</h3>
+        <span className="mt-3 block h-px w-10 bg-bronze/70" />
+        <p className="mt-3 text-sm leading-relaxed text-ivory/75">{address}</p>
+        <p className="mt-1 text-sm text-ivory/60">{hours}</p>
+
+        <div className="mt-5 flex items-center gap-3">
+          <a
+            href={`tel:${phone.replace(/\s/g, "")}`}
+            className="rounded-full border border-ivory/40 px-5 py-2 text-xs font-semibold tracking-wide transition-colors hover:border-bronze hover:text-bronze"
+          >
+            {phone}
+          </a>
+          <a
+            href={mapUrl}
+            target="_blank"
+            rel="noopener"
+            className="rounded-full border border-bronze/60 bg-bronze/15 px-5 py-2 text-xs font-semibold tracking-wide text-bronze transition-colors hover:bg-bronze hover:text-charcoal"
+          >
+            Yol Tarifi
+          </a>
+        </div>
+      </div>
+    </div>
   );
 }
 

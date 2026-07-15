@@ -15,8 +15,8 @@ export default async function KategorilerPage({
   });
 
   const groups = [
-    { key: "dis-mekan", title: "Dış Mekan" },
     { key: "ic-mekan", title: "İç Mekan" },
+    { key: "dis-mekan", title: "Dış Mekan" },
   ].filter((g) => categories.some((c) => c.area === g.key));
 
   return (
@@ -45,18 +45,12 @@ export default async function KategorilerPage({
               </h2>
               <span className="h-px flex-1 bg-charcoal/30" />
             </div>
-            <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="grid gap-8 sm:grid-cols-2">
               {categories
                 .filter((c) => c.area === group.key)
-                .map((cat, i) => (
+                .map((cat) => (
                   <Link key={cat.id} href={`/kategoriler/${cat.slug}`} className="group">
-                    <div
-                      className={`aspect-[4/3] overflow-hidden bg-sand ${
-                        i % 2 === 0
-                          ? "rounded-[2rem] rounded-tr-[6rem]"
-                          : "rounded-[2rem] rounded-bl-[6rem]"
-                      }`}
-                    >
+                    <div className="relative aspect-[4/3] overflow-hidden rounded-[2rem] rounded-tr-[6rem] bg-sand">
                       {cat.imageUrl && (
                         // eslint-disable-next-line @next/next/no-img-element
                         <img
@@ -65,13 +59,16 @@ export default async function KategorilerPage({
                           className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                         />
                       )}
-                    </div>
-                    <div className="mt-4 flex items-center gap-4">
-                      <h3 className="whitespace-nowrap text-xl">{cat.name}</h3>
-                      <span className="h-px flex-1 bg-charcoal/40" />
-                      <span className="rounded-full border border-charcoal px-4 py-1.5 text-xs font-semibold transition-colors group-hover:bg-charcoal group-hover:text-ivory">
-                        İncele
-                      </span>
+                      {/* Alt bant: gradient üzerinde başlık + buton */}
+                      <div className="absolute inset-x-0 bottom-0 flex items-center gap-4 bg-gradient-to-t from-charcoal/85 via-charcoal/45 to-transparent px-6 pb-5 pt-14 sm:px-8">
+                        <h3 className="whitespace-nowrap text-xl text-ivory md:text-2xl">
+                          {cat.name}
+                        </h3>
+                        <span className="h-px flex-1 bg-ivory/40" />
+                        <span className="rounded-full border border-ivory/80 px-4 py-1.5 text-xs font-semibold text-ivory transition-colors group-hover:bg-ivory group-hover:text-charcoal">
+                          İncele
+                        </span>
+                      </div>
                     </div>
                   </Link>
                 ))}

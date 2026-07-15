@@ -34,18 +34,11 @@ yarn-error.log*
 .env*
 !.env.example
 
-# database
-prisma/*.db
+# database (dev.db bilerek commit'leniyor: içerik makineler arası taşınıyor)
 prisma/*.db-journal
 
 # prisma generated client
 /src/generated/
-
-# kullanıcı yüklemeleri
-/public/uploads/*
-!/public/uploads/.gitkeep
-!/public/uploads/placeholder-*.svg
-!/public/uploads/tuti-*
 
 # vercel
 .vercel

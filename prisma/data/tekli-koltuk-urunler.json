@@ -1,0 +1,374 @@
+[
+  {
+    "name": "Soho Koltuk",
+    "slug": "soho-koltuk",
+    "sortOrder": 1,
+    "images": [
+      {
+        "file": "soho-koltuk-1.png",
+        "alt": "Soho Koltuk"
+      }
+    ]
+  },
+  {
+    "name": "Oslo Koltuk",
+    "slug": "oslo-koltuk",
+    "sortOrder": 2,
+    "images": [
+      {
+        "file": "oslo-koltuk-1.png",
+        "alt": "Oslo Koltuk"
+      },
+      {
+        "file": "oslo-koltuk-2.jpg",
+        "alt": "Oslo Koltuk"
+      }
+    ]
+  },
+  {
+    "name": "Eiffel Koltuk",
+    "slug": "eiffel-koltuk",
+    "sortOrder": 3,
+    "images": [
+      {
+        "file": "eiffel-koltuk-1.png",
+        "alt": "Eiffel Koltuk"
+      },
+      {
+        "file": "eiffel-koltuk-2.png",
+        "alt": "Eiffel Koltuk"
+      }
+    ]
+  },
+  {
+    "name": "Peacook Oriental Koltuk",
+    "slug": "peacook-oriental-koltuk",
+    "sortOrder": 4,
+    "images": [
+      {
+        "file": "peacook-oriental-koltuk-1.png",
+        "alt": "Peacook Oriental Koltuk"
+      }
+    ]
+  },
+  {
+    "name": "Catania Paris Koltuk & Bench",
+    "slug": "catania-paris-koltuk-bench",
+    "sortOrder": 5,
+    "images": [
+      {
+        "file": "catania-paris-koltuk-bench-1.png",
+        "alt": "Catania Paris Koltuk & Bench"
+      },
+      {
+        "file": "catania-paris-koltuk-bench-2.jpg",
+        "alt": "Catania Paris Koltuk & Bench"
+      }
+    ]
+  },
+  {
+    "name": "Barcelona Koltuk & Bench",
+    "slug": "barcelona-koltuk-bench",
+    "sortOrder": 6,
+    "images": [
+      {
+        "file": "barcelona-koltuk-bench-1.png",
+        "alt": "Barcelona Koltuk & Bench"
+      }
+    ]
+  },
+  {
+    "name": "Gio Koltuk",
+    "slug": "gio-koltuk",
+    "sortOrder": 7,
+    "images": [
+      {
+        "file": "gio-koltuk-1.png",
+        "alt": "Gio Koltuk"
+      },
+      {
+        "file": "gio-koltuk-2.png",
+        "alt": "Gio Koltuk"
+      },
+      {
+        "file": "gio-koltuk-3.jpg",
+        "alt": "Gio Koltuk"
+      },
+      {
+        "file": "gio-koltuk-4.jpg",
+        "alt": "Gio Koltuk"
+      },
+      {
+        "file": "gio-koltuk-5.jpg",
+        "alt": "Gio Koltuk"
+      },
+      {
+        "file": "gio-koltuk-6.jpg",
+        "alt": "Gio Koltuk"
+      },
+      {
+        "file": "gio-koltuk-7.png",
+        "alt": "Gio Koltuk"
+      }
+    ]
+  },
+  {
+    "name": "Cataina Deri Dokuma Koltuk",
+    "slug": "cataina-deri-dokuma-koltuk",
+    "sortOrder": 8,
+    "images": [
+      {
+        "file": "cataina-deri-dokuma-koltuk-1.png",
+        "alt": "Cataina Deri Dokuma Koltuk"
+      },
+      {
+        "file": "cataina-deri-dokuma-koltuk-2.jpg",
+        "alt": "Cataina Deri Dokuma Koltuk"
+      },
+      {
+        "file": "cataina-deri-dokuma-koltuk-3.jpg",
+        "alt": "Cataina Deri Dokuma Koltuk"
+      }
+    ]
+  },
+  {
+    "name": "Panampu Koltuk",
+    "slug": "panampu-koltuk",
+    "sortOrder": 9,
+    "images": [
+      {
+        "file": "panampu-koltuk-1.png",
+        "alt": "Panampu Koltuk"
+      },
+      {
+        "file": "panampu-koltuk-2.png",
+        "alt": "Panampu Koltuk"
+      },
+      {
+        "file": "panampu-koltuk-3.jpeg",
+        "alt": "Panampu Koltuk"
+      }
+    ]
+  },
+  {
+    "name": "Flamingo Koltuk",
+    "slug": "flamingo-koltuk",
+    "sortOrder": 10,
+    "images": [
+      {
+        "file": "flamingo-koltuk-1.png",
+        "alt": "Flamingo Koltuk"
+      },
+      {
+        "file": "flamingo-koltuk-2.jpg",
+        "alt": "Flamingo Koltuk"
+      },
+      {
+        "file": "flamingo-koltuk-3.jpg",
+        "alt": "Flamingo Koltuk"
+      },
+      {
+        "file": "flamingo-koltuk-4.jpg",
+        "alt": "Flamingo Koltuk"
+      }
+    ]
+  },
+  {
+    "name": "Sweden Koltuk",
+    "slug": "sweden-koltuk",
+    "sortOrder": 11,
+    "images": [
+      {
+        "file": "sweden-koltuk-1.png",
+        "alt": "Sweden Koltuk"
+      },
+      {
+        "file": "sweden-koltuk-2.jpg",
+        "alt": "Sweden Koltuk"
+      }
+    ]
+  },
+  {
+    "name": "Float Koltuk",
+    "slug": "float-koltuk",
+    "sortOrder": 12,
+    "images": [
+      {
+        "file": "float-koltuk-1.png",
+        "alt": "Float Koltuk"
+      },
+      {
+        "file": "float-koltuk-2.png",
+        "alt": "Float Koltuk"
+      }
+    ]
+  },
+  {
+    "name": "Komodo Koltuk",
+    "slug": "komodo-koltuk",
+    "sortOrder": 13,
+    "images": [
+      {
+        "file": "komodo-koltuk-1.png",
+        "alt": "Komodo Koltuk"
+      },
+      {
+        "file": "komodo-koltuk-2.jpg",
+        "alt": "Komodo Koltuk"
+      }
+    ]
+  },
+  {
+    "name": "Oval Koltuk",
+    "slug": "oval-koltuk",
+    "sortOrder": 14,
+    "images": [
+      {
+        "file": "oval-koltuk-1.png",
+        "alt": "Oval Koltuk"
+      }
+    ]
+  },
+  {
+    "name": "Savana Koltuk",
+    "slug": "savana-koltuk",
+    "sortOrder": 15,
+    "images": [
+      {
+        "file": "savana-koltuk-1.png",
+        "alt": "Savana Koltuk"
+      }
+    ]
+  },
+  {
+    "name": "Strap Koltuk",
+    "slug": "strap-koltuk",
+    "sortOrder": 16,
+    "images": [
+      {
+        "file": "strap-koltuk-1.png",
+        "alt": "Strap Koltuk"
+      },
+      {
+        "file": "strap-koltuk-2.jpg",
+        "alt": "Strap Koltuk"
+      },
+      {
+        "file": "strap-koltuk-3.jpg",
+        "alt": "Strap Koltuk"
+      }
+    ]
+  },
+  {
+    "name": "Bangalore Koltuk",
+    "slug": "bangalore-koltuk",
+    "sortOrder": 17,
+    "images": [
+      {
+        "file": "bangalore-koltuk-1.png",
+        "alt": "Bangalore Koltuk"
+      },
+      {
+        "file": "bangalore-koltuk-2.jpg",
+        "alt": "Bangalore Koltuk"
+      }
+    ]
+  },
+  {
+    "name": "Brazilian Koltuk",
+    "slug": "brazilian-koltuk",
+    "sortOrder": 18,
+    "images": [
+      {
+        "file": "brazilian-koltuk-1.png",
+        "alt": "Brazilian Koltuk"
+      }
+    ]
+  },
+  {
+    "name": "Lazy Koltuk",
+    "slug": "lazy-koltuk",
+    "sortOrder": 19,
+    "images": [
+      {
+        "file": "lazy-koltuk-1.png",
+        "alt": "Lazy Koltuk"
+      }
+    ]
+  },
+  {
+    "name": "Alborg Lazy Koltuk",
+    "slug": "alborg-lazy-koltuk",
+    "sortOrder": 20,
+    "images": [
+      {
+        "file": "alborg-lazy-koltuk-1.png",
+        "alt": "Alborg Lazy Koltuk"
+      }
+    ]
+  },
+  {
+    "name": "Malawi Koltuk",
+    "slug": "malawi-koltuk",
+    "sortOrder": 21,
+    "images": [
+      {
+        "file": "malawi-koltuk-1.png",
+        "alt": "Malawi Koltuk"
+      },
+      {
+        "file": "malawi-koltuk-2.jpg",
+        "alt": "Malawi Koltuk"
+      }
+    ]
+  },
+  {
+    "name": "Catania Doğal Dokuma Koltuk",
+    "slug": "catania-dogal-dokuma-koltuk",
+    "sortOrder": 22,
+    "images": [
+      {
+        "file": "catania-dogal-dokuma-koltuk-1.png",
+        "alt": "Catania Doğal Dokuma Koltuk"
+      },
+      {
+        "file": "catania-dogal-dokuma-koltuk-2.jpg",
+        "alt": "Catania Doğal Dokuma Koltuk"
+      }
+    ]
+  },
+  {
+    "name": "Orensel Puflu Koltuk",
+    "slug": "orensel-puflu-koltuk",
+    "sortOrder": 23,
+    "images": [
+      {
+        "file": "orensel-puflu-koltuk-1.png",
+        "alt": "Orensel Puflu Koltuk"
+      },
+      {
+        "file": "orensel-puflu-koltuk-2.jpg",
+        "alt": "Orensel Puflu Koltuk"
+      }
+    ]
+  },
+  {
+    "name": "Tuti Berjer",
+    "slug": "tuti-berjer",
+    "sortOrder": 24,
+    "images": [
+      {
+        "file": "tuti-berjer-1.png",
+        "alt": "Tuti Berjer"
+      },
+      {
+        "file": "tuti-berjer-2.jpg",
+        "alt": "Tuti Berjer"
+      },
+      {
+        "file": "tuti-berjer-3.jpg",
+        "alt": "Tuti Berjer"
+      }
+    ]
+  }
+]

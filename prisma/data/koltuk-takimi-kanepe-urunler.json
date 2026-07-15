@@ -1,0 +1,267 @@
+[
+  {
+    "name": "AR Pisa Kanepe",
+    "slug": "ar-pisa-kanepe",
+    "sortOrder": 0,
+    "images": [
+      {
+        "file": "ar-pisa-kanepe-1.png",
+        "alt": "AR Pisa Kanepe"
+      }
+    ]
+  },
+  {
+    "name": "AR Pisa Relax Köşe",
+    "slug": "ar-pisa-relax-kose",
+    "sortOrder": 1,
+    "images": [
+      {
+        "file": "ar-pisa-relax-kose-1.png",
+        "alt": "AR Pisa Relax Köşe"
+      }
+    ]
+  },
+  {
+    "name": "AR Slow Kanepe",
+    "slug": "ar-slow-kanepe",
+    "sortOrder": 2,
+    "images": [
+      {
+        "file": "ar-slow-kanepe-1.png",
+        "alt": "AR Slow Kanepe"
+      }
+    ]
+  },
+  {
+    "name": "AR – FV 20-4 Kanepe",
+    "slug": "ar-fv-20-4-kanepe",
+    "sortOrder": 3,
+    "images": [
+      {
+        "file": "ar-fv-20-4-kanepe-1.png",
+        "alt": "AR – FV 20-4 Kanepe"
+      },
+      {
+        "file": "ar-fv-20-4-kanepe-2.jpg",
+        "alt": "AR – FV 20-4 Kanepe"
+      }
+    ]
+  },
+  {
+    "name": "Soho Kanepe",
+    "slug": "soho-kanepe",
+    "sortOrder": 4,
+    "images": [
+      {
+        "file": "soho-kanepe-1.png",
+        "alt": "Soho Kanepe"
+      },
+      {
+        "file": "soho-kanepe-2.jpg",
+        "alt": "Soho Kanepe"
+      },
+      {
+        "file": "soho-kanepe-3.jpg",
+        "alt": "Soho Kanepe"
+      }
+    ]
+  },
+  {
+    "name": "AR – UR 20-4 Kanepe",
+    "slug": "ar-ur-20-4-kanepe",
+    "sortOrder": 5,
+    "images": [
+      {
+        "file": "ar-ur-20-4-kanepe-1.png",
+        "alt": "AR – UR 20-4 Kanepe"
+      },
+      {
+        "file": "ar-ur-20-4-kanepe-2.jpg",
+        "alt": "AR – UR 20-4 Kanepe"
+      },
+      {
+        "file": "ar-ur-20-4-kanepe-3.jpg",
+        "alt": "AR – UR 20-4 Kanepe"
+      }
+    ]
+  },
+  {
+    "name": "Oslo Kanepe",
+    "slug": "oslo-kanepe",
+    "sortOrder": 6,
+    "images": [
+      {
+        "file": "oslo-kanepe-1.png",
+        "alt": "Oslo Kanepe"
+      },
+      {
+        "file": "oslo-kanepe-2.png",
+        "alt": "Oslo Kanepe"
+      }
+    ]
+  },
+  {
+    "name": "Gio Deri Kanepe",
+    "slug": "gio-deri-kanepe",
+    "sortOrder": 7,
+    "images": [
+      {
+        "file": "gio-deri-kanepe-1.png",
+        "alt": "Gio Deri Kanepe"
+      },
+      {
+        "file": "gio-deri-kanepe-2.jpg",
+        "alt": "Gio Deri Kanepe"
+      },
+      {
+        "file": "gio-deri-kanepe-3.jpg",
+        "alt": "Gio Deri Kanepe"
+      }
+    ]
+  },
+  {
+    "name": "Cologne Kanepe",
+    "slug": "cologne-kanepe",
+    "sortOrder": 8,
+    "images": [
+      {
+        "file": "cologne-kanepe-1.png",
+        "alt": "Cologne Kanepe"
+      },
+      {
+        "file": "cologne-kanepe-2.jpg",
+        "alt": "Cologne Kanepe"
+      },
+      {
+        "file": "cologne-kanepe-3.jpg",
+        "alt": "Cologne Kanepe"
+      }
+    ]
+  },
+  {
+    "name": "Faroe Kanepe",
+    "slug": "faroe-kanepe",
+    "sortOrder": 9,
+    "images": [
+      {
+        "file": "faroe-kanepe-1.png",
+        "alt": "Faroe Kanepe"
+      },
+      {
+        "file": "faroe-kanepe-2.png",
+        "alt": "Faroe Kanepe"
+      },
+      {
+        "file": "faroe-kanepe-3.png",
+        "alt": "Faroe Kanepe"
+      },
+      {
+        "file": "faroe-kanepe-4.png",
+        "alt": "Faroe Kanepe"
+      }
+    ]
+  },
+  {
+    "name": "Boho Kanepe",
+    "slug": "boho-kanepe",
+    "sortOrder": 10,
+    "images": [
+      {
+        "file": "boho-kanepe-1.png",
+        "alt": "Boho Kanepe"
+      },
+      {
+        "file": "boho-kanepe-2.png",
+        "alt": "Boho Kanepe"
+      },
+      {
+        "file": "boho-kanepe-3.png",
+        "alt": "Boho Kanepe"
+      },
+      {
+        "file": "boho-kanepe-4.png",
+        "alt": "Boho Kanepe"
+      }
+    ]
+  },
+  {
+    "name": "Gio Köşe Takımı",
+    "slug": "gio-kose-takimi",
+    "sortOrder": 11,
+    "images": [
+      {
+        "file": "gio-kose-takimi-1.png",
+        "alt": "Gio Köşe Takımı"
+      },
+      {
+        "file": "gio-kose-takimi-2.jpg",
+        "alt": "Gio Köşe Takımı"
+      },
+      {
+        "file": "gio-kose-takimi-3.png",
+        "alt": "Gio Köşe Takımı"
+      },
+      {
+        "file": "gio-kose-takimi-4.png",
+        "alt": "Gio Köşe Takımı"
+      }
+    ]
+  },
+  {
+    "name": "AR – FV 20-2 Köşe",
+    "slug": "ar-fv-20-2-kose",
+    "sortOrder": 12,
+    "images": [
+      {
+        "file": "ar-fv-20-2-kose-1.png",
+        "alt": "AR – FV 20-2 Köşe"
+      },
+      {
+        "file": "ar-fv-20-2-kose-2.jpg",
+        "alt": "AR – FV 20-2 Köşe"
+      },
+      {
+        "file": "ar-fv-20-2-kose-3.jpg",
+        "alt": "AR – FV 20-2 Köşe"
+      },
+      {
+        "file": "ar-fv-20-2-kose-4.jpg",
+        "alt": "AR – FV 20-2 Köşe"
+      }
+    ]
+  },
+  {
+    "name": "AR Cube Relax Köşe",
+    "slug": "ar-cube-relax-kose",
+    "sortOrder": 13,
+    "images": [
+      {
+        "file": "ar-cube-relax-kose-1.png",
+        "alt": "AR Cube Relax Köşe"
+      }
+    ]
+  },
+  {
+    "name": "AR Cube XL Köşe",
+    "slug": "ar-cube-xl-kose",
+    "sortOrder": 14,
+    "images": [
+      {
+        "file": "ar-cube-xl-kose-1.png",
+        "alt": "AR Cube XL Köşe"
+      },
+      {
+        "file": "ar-cube-xl-kose-2.jpg",
+        "alt": "AR Cube XL Köşe"
+      },
+      {
+        "file": "ar-cube-xl-kose-3.jpg",
+        "alt": "AR Cube XL Köşe"
+      },
+      {
+        "file": "ar-cube-xl-kose-4.jpg",
+        "alt": "AR Cube XL Köşe"
+      }
+    ]
+  }
+]

@@ -1,0 +1,334 @@
+[
+  {
+    "name": "Nardi Atlantico Şezlong",
+    "slug": "nardi-atlantico-sezlong",
+    "sortOrder": 0,
+    "description": "UV Katkılı fiberglass\nBOYUT\n171/204 x 70 x 99",
+    "images": [
+      {
+        "file": "nardi-atlantico-sezlong-1.png",
+        "alt": "Nardi Atlantico Şezlong — görsel 1"
+      },
+      {
+        "file": "nardi-atlantico-sezlong-2.jpeg",
+        "alt": "Nardi Atlantico Şezlong — görsel 2"
+      },
+      {
+        "file": "nardi-atlantico-sezlong-3.jpeg",
+        "alt": "Nardi Atlantico Şezlong — görsel 3"
+      },
+      {
+        "file": "nardi-atlantico-sezlong-4.jpeg",
+        "alt": "Nardi Atlantico Şezlong — görsel 4"
+      }
+    ]
+  },
+  {
+    "name": "Nardi Alfa Şezlong",
+    "slug": "nardi-alfa-sezlong",
+    "sortOrder": 1,
+    "description": "UV Katkılı homojen renkli fiberglass polipropilen reçine\nBOYUT\nGenişlik: 170 / 194.5 cm\nDerinlik: 71 cm\nYükseklik: 85 cm\nAğırlık: 14 kg",
+    "images": [
+      {
+        "file": "nardi-alfa-sezlong-1.png",
+        "alt": "Nardi Alfa Şezlong — görsel 1"
+      },
+      {
+        "file": "nardi-alfa-sezlong-2.png",
+        "alt": "Nardi Alfa Şezlong — görsel 2"
+      },
+      {
+        "file": "nardi-alfa-sezlong-3.jpg",
+        "alt": "Nardi Alfa Şezlong — görsel 3"
+      }
+    ]
+  },
+  {
+    "name": "Snooze Şezlong",
+    "slug": "snooze-sezlong",
+    "sortOrder": 2,
+    "description": "Çelik / Tekstil\nBOYUT\n75 x 91 105 cm",
+    "images": [
+      {
+        "file": "snooze-sezlong-1.png",
+        "alt": "Snooze Şezlong — görsel 1"
+      },
+      {
+        "file": "snooze-sezlong-2.jpeg",
+        "alt": "Snooze Şezlong — görsel 2"
+      },
+      {
+        "file": "snooze-sezlong-3.jpeg",
+        "alt": "Snooze Şezlong — görsel 3"
+      }
+    ]
+  },
+  {
+    "name": "Horizon Şezlong Dark",
+    "slug": "horizon-sezlong-dark",
+    "sortOrder": 3,
+    "description": "BOYUT\nAlüminyum\nMekanizmalı Puf 89 x 87 x 42 cm\nXL Puf 107 x 87 x 42 cm\nTek Ayaklı Sehpa Modülü 90 x 44 x 26 cm",
+    "images": [
+      {
+        "file": "horizon-sezlong-dark-1.png",
+        "alt": "Horizon Şezlong Dark — görsel 1"
+      },
+      {
+        "file": "horizon-sezlong-dark-2.jpg",
+        "alt": "Horizon Şezlong Dark — görsel 2"
+      }
+    ]
+  },
+  {
+    "name": "Horizon Şezlong Light",
+    "slug": "horizon-sezlong-light",
+    "sortOrder": 4,
+    "description": "Alüminyum\nBOYUT\nMekanizmalı Puf 89 x 87 x 42 cm\nXL Puf 107 x 87 x 42 cm\nTek Ayaklı Sehpa Modülü 90 x 44 x 26 cm",
+    "images": [
+      {
+        "file": "horizon-sezlong-light-1.png",
+        "alt": "Horizon Şezlong Light — görsel 1"
+      },
+      {
+        "file": "horizon-sezlong-light-2.jpg",
+        "alt": "Horizon Şezlong Light — görsel 2"
+      }
+    ]
+  },
+  {
+    "name": "Luxury Şezlong Alüminyum İp Örgü",
+    "slug": "luxury-sezlong-aluminyum-ip-orgu",
+    "sortOrder": 5,
+    "description": null,
+    "images": [
+      {
+        "file": "luxury-sezlong-aluminyum-ip-orgu-1.png",
+        "alt": "Luxury Şezlong Alüminyum İp Örgü — görsel 1"
+      },
+      {
+        "file": "luxury-sezlong-aluminyum-ip-orgu-2.jpg",
+        "alt": "Luxury Şezlong Alüminyum İp Örgü — görsel 2"
+      }
+    ]
+  },
+  {
+    "name": "Deck Chair",
+    "slug": "deck-chair",
+    "sortOrder": 6,
+    "description": "Teak",
+    "images": [
+      {
+        "file": "deck-chair-1.png",
+        "alt": "Deck Chair — görsel 1"
+      }
+    ]
+  },
+  {
+    "name": "Vera Şezlong 80",
+    "slug": "vera-sezlong-80",
+    "sortOrder": 7,
+    "description": "Iroko",
+    "images": [
+      {
+        "file": "vera-sezlong-80-1.png",
+        "alt": "Vera Şezlong 80 — görsel 1"
+      },
+      {
+        "file": "vera-sezlong-80-2.jpg",
+        "alt": "Vera Şezlong 80 — görsel 2"
+      }
+    ]
+  },
+  {
+    "name": "Vera Şezlong 120",
+    "slug": "vera-sezlong-120",
+    "sortOrder": 8,
+    "description": "Iroko",
+    "images": [
+      {
+        "file": "vera-sezlong-120-1.png",
+        "alt": "Vera Şezlong 120 — görsel 1"
+      },
+      {
+        "file": "vera-sezlong-120-2.jpg",
+        "alt": "Vera Şezlong 120 — görsel 2"
+      }
+    ]
+  },
+  {
+    "name": "Vera Şezlong 160",
+    "slug": "vera-sezlong-160",
+    "sortOrder": 9,
+    "description": "Iroko",
+    "images": [
+      {
+        "file": "vera-sezlong-160-1.png",
+        "alt": "Vera Şezlong 160 — görsel 1"
+      }
+    ]
+  },
+  {
+    "name": "Bahza Şezlong",
+    "slug": "bahza-sezlong",
+    "sortOrder": 10,
+    "description": "Alüminyum,\nTekstilen File",
+    "images": [
+      {
+        "file": "bahza-sezlong-1.png",
+        "alt": "Bahza Şezlong — görsel 1"
+      },
+      {
+        "file": "bahza-sezlong-2.jpg",
+        "alt": "Bahza Şezlong — görsel 2"
+      }
+    ]
+  },
+  {
+    "name": "Essence Şezlong",
+    "slug": "essence-sezlong",
+    "sortOrder": 11,
+    "description": "Alüminyum",
+    "images": [
+      {
+        "file": "essence-sezlong-1.png",
+        "alt": "Essence Şezlong — görsel 1"
+      },
+      {
+        "file": "essence-sezlong-2.jpg",
+        "alt": "Essence Şezlong — görsel 2"
+      }
+    ]
+  },
+  {
+    "name": "Langkawi Şezlong",
+    "slug": "langkawi-sezlong",
+    "sortOrder": 12,
+    "description": "Iroko",
+    "images": [
+      {
+        "file": "langkawi-sezlong-1.png",
+        "alt": "Langkawi Şezlong — görsel 1"
+      },
+      {
+        "file": "langkawi-sezlong-2.jpg",
+        "alt": "Langkawi Şezlong — görsel 2"
+      }
+    ]
+  },
+  {
+    "name": "Icon Iroko Şezlong",
+    "slug": "icon-iroko-sezlong",
+    "sortOrder": 13,
+    "description": "BOYUT\nIROKO\nOLEFİN KUMAŞ",
+    "images": [
+      {
+        "file": "icon-iroko-sezlong-1.png",
+        "alt": "Icon Iroko Şezlong — görsel 1"
+      },
+      {
+        "file": "icon-iroko-sezlong-2.jpg",
+        "alt": "Icon Iroko Şezlong — görsel 2"
+      }
+    ]
+  },
+  {
+    "name": "Eve Şezlong",
+    "slug": "eve-sezlong",
+    "sortOrder": 14,
+    "description": "Teak",
+    "images": [
+      {
+        "file": "eve-sezlong-1.png",
+        "alt": "Eve Şezlong — görsel 1"
+      },
+      {
+        "file": "eve-sezlong-2.jpg",
+        "alt": "Eve Şezlong — görsel 2"
+      }
+    ]
+  },
+  {
+    "name": "Shine Şezlong",
+    "slug": "shine-sezlong",
+    "sortOrder": 15,
+    "description": "BOYUT\n65 x 195 x 32 cm",
+    "images": [
+      {
+        "file": "shine-sezlong-1.png",
+        "alt": "Shine Şezlong — görsel 1"
+      }
+    ]
+  },
+  {
+    "name": "Flamingo Şezlong",
+    "slug": "flamingo-sezlong",
+    "sortOrder": 16,
+    "description": "Cappucino ve antrasit tex seçenekleri mevcuttur.\nEloksal alüminyum",
+    "images": [
+      {
+        "file": "flamingo-sezlong-1.png",
+        "alt": "Flamingo Şezlong — görsel 1"
+      },
+      {
+        "file": "flamingo-sezlong-2.jpg",
+        "alt": "Flamingo Şezlong — görsel 2"
+      }
+    ]
+  },
+  {
+    "name": "Ege Şezlong",
+    "slug": "ege-sezlong",
+    "sortOrder": 17,
+    "description": "Beyaz - Antrasit- Cappucino renk seçenekleri mevcuttur.\nAlüminyum gövde file tex",
+    "images": [
+      {
+        "file": "ege-sezlong-1.png",
+        "alt": "Ege Şezlong — görsel 1"
+      },
+      {
+        "file": "ege-sezlong-2.jpg",
+        "alt": "Ege Şezlong — görsel 2"
+      }
+    ]
+  },
+  {
+    "name": "Ege Kolçaklı Şezlong",
+    "slug": "ege-kolcakli-sezlong",
+    "sortOrder": 18,
+    "description": "Beyaz - Antrasit- Cappucino renk seçenekleri mevcuttur.\nAlüminyum gövde file tex",
+    "images": [
+      {
+        "file": "ege-kolcakli-sezlong-1.png",
+        "alt": "Ege Kolçaklı Şezlong — görsel 1"
+      },
+      {
+        "file": "ege-kolcakli-sezlong-2.jpg",
+        "alt": "Ege Kolçaklı Şezlong — görsel 2"
+      }
+    ]
+  },
+  {
+    "name": "Çeşme Katlanır Şezlong",
+    "slug": "cesme-katlanir-sezlong",
+    "sortOrder": 19,
+    "description": "Beyaz ve cappucino renk seçeneği mevcuttur.",
+    "images": [
+      {
+        "file": "cesme-katlanir-sezlong-1.png",
+        "alt": "Çeşme Katlanır Şezlong — görsel 1"
+      }
+    ]
+  },
+  {
+    "name": "Solana Şezlong",
+    "slug": "solana-sezlong",
+    "sortOrder": 23,
+    "description": "Alüminyum,\nTekstilen File",
+    "images": [
+      {
+        "file": "solana-sezlong-1.png",
+        "alt": "Solana Şezlong — görsel 1"
+      }
+    ]
+  }
+]
