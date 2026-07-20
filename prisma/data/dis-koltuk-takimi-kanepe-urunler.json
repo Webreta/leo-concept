@@ -1,0 +1,738 @@
+[
+  {
+    "name": "Modena Oturma Takımı",
+    "slug": "modena-oturma-takimi",
+    "sortOrder": 0,
+    "description": "BOYUTDaybed: 178 x 96 x 80 cm\nOrta Sehpa: 97 x 97 x 40 cm\nYan Sehpa: 97 x 51 x 40 cm",
+    "images": [
+      {
+        "file": "modena-oturma-takimi-1.png",
+        "alt": "Modena Oturma Takımı — görsel 1"
+      }
+    ]
+  },
+  {
+    "name": "St. Tropez Köşe Set",
+    "slug": "st-tropez-kose-set",
+    "sortOrder": 1,
+    "description": null,
+    "images": [
+      {
+        "file": "st-tropez-kose-set-1.png",
+        "alt": "St. Tropez Köşe Set — görsel 1"
+      }
+    ]
+  },
+  {
+    "name": "Langkawi Koltuk Takımı",
+    "slug": "langkawi-koltuk-takimi",
+    "sortOrder": 2,
+    "description": "Iroko\nBOYUTLangkawi Daybed Mod&uuml;l&uuml;\n180 x 90 x 67 cm\nKoltuk Mod&uuml;l&uuml;\n90 x 90 x 67 cm\nOrta Sehpa Mod&uuml;l&uuml;\n87 x 87 x 35 cm\nYan Sehpa Mod&uuml;l&uuml;\n42 x 42 x 53 cm",
+    "images": [
+      {
+        "file": "langkawi-koltuk-takimi-1.png",
+        "alt": "Langkawi Koltuk Takımı — görsel 1"
+      },
+      {
+        "file": "langkawi-koltuk-takimi-2.jpg",
+        "alt": "Langkawi Koltuk Takımı — görsel 2"
+      },
+      {
+        "file": "langkawi-koltuk-takimi-3.jpg",
+        "alt": "Langkawi Koltuk Takımı — görsel 3"
+      },
+      {
+        "file": "langkawi-koltuk-takimi-4.jpg",
+        "alt": "Langkawi Koltuk Takımı — görsel 4"
+      },
+      {
+        "file": "langkawi-koltuk-takimi-5.jpg",
+        "alt": "Langkawi Koltuk Takımı — görsel 5"
+      },
+      {
+        "file": "langkawi-koltuk-takimi-6.jpg",
+        "alt": "Langkawi Koltuk Takımı — görsel 6"
+      }
+    ]
+  },
+  {
+    "name": "Kapalai",
+    "slug": "kapalai",
+    "sortOrder": 3,
+    "description": "Poly Rattan\nBOYUT3'l&uuml; Kanepe\n220 x 95 x 69 cm\nTekli Koltuk\n120 x 95 x 69 cm\nOrta Sehpa\n135 x 70 x 37 cm",
+    "images": [
+      {
+        "file": "kapalai-1.png",
+        "alt": "Kapalai — görsel 1"
+      },
+      {
+        "file": "kapalai-2.jpg",
+        "alt": "Kapalai — görsel 2"
+      }
+    ]
+  },
+  {
+    "name": "Stockholm Koltuk Takımı",
+    "slug": "stockholm-koltuk-takimi",
+    "sortOrder": 4,
+    "description": "BOYUTK&ouml;şe Mod&uuml;l 95 x 95 x 70 cm\nKolsuz Mod&uuml;l 95 x 95 x 70 cm\nPuf 90 x 75 x 40 cm\nAl&ccedil;ak Sehpa 95 x 55 x 12 cm\nDaybed 1 180 x 80 x 30 cm\nDaybed 2 200 x 80 x 30 cm",
+    "images": [
+      {
+        "file": "stockholm-koltuk-takimi-1.png",
+        "alt": "Stockholm Koltuk Takımı — görsel 1"
+      },
+      {
+        "file": "stockholm-koltuk-takimi-2.jpg",
+        "alt": "Stockholm Koltuk Takımı — görsel 2"
+      },
+      {
+        "file": "stockholm-koltuk-takimi-3.jpg",
+        "alt": "Stockholm Koltuk Takımı — görsel 3"
+      },
+      {
+        "file": "stockholm-koltuk-takimi-4.jpg",
+        "alt": "Stockholm Koltuk Takımı — görsel 4"
+      },
+      {
+        "file": "stockholm-koltuk-takimi-5.jpg",
+        "alt": "Stockholm Koltuk Takımı — görsel 5"
+      },
+      {
+        "file": "stockholm-koltuk-takimi-6.png",
+        "alt": "Stockholm Koltuk Takımı — görsel 6"
+      },
+      {
+        "file": "stockholm-koltuk-takimi-7.png",
+        "alt": "Stockholm Koltuk Takımı — görsel 7"
+      },
+      {
+        "file": "stockholm-koltuk-takimi-8.png",
+        "alt": "Stockholm Koltuk Takımı — görsel 8"
+      },
+      {
+        "file": "stockholm-koltuk-takimi-9.png",
+        "alt": "Stockholm Koltuk Takımı — görsel 9"
+      },
+      {
+        "file": "stockholm-koltuk-takimi-10.png",
+        "alt": "Stockholm Koltuk Takımı — görsel 10"
+      },
+      {
+        "file": "stockholm-koltuk-takimi-11.png",
+        "alt": "Stockholm Koltuk Takımı — görsel 11"
+      },
+      {
+        "file": "stockholm-koltuk-takimi-12.png",
+        "alt": "Stockholm Koltuk Takımı — görsel 12"
+      }
+    ]
+  },
+  {
+    "name": "Stockholm Antrasit Koltuk Takımı",
+    "slug": "stockholm-antrasit-koltuk-takimi",
+    "sortOrder": 5,
+    "description": "BOYUTK&ouml;şe Mod&uuml;l 95 x 95 x 70 cm\nKolsuz Mod&uuml;l 95 x 95 x 70 cm\nPuf 90 x 75 x 40 cm\nAl&ccedil;ak Sehpa 95 x 55 x 12 cm\nDaybed 1 180 x 80 x 30 cm\nDaybed 2 200 x 80 x 30 cm",
+    "images": [
+      {
+        "file": "stockholm-antrasit-koltuk-takimi-1.png",
+        "alt": "Stockholm Antrasit Koltuk Takımı — görsel 1"
+      },
+      {
+        "file": "stockholm-antrasit-koltuk-takimi-2.jpg",
+        "alt": "Stockholm Antrasit Koltuk Takımı — görsel 2"
+      },
+      {
+        "file": "stockholm-antrasit-koltuk-takimi-3.jpg",
+        "alt": "Stockholm Antrasit Koltuk Takımı — görsel 3"
+      },
+      {
+        "file": "stockholm-antrasit-koltuk-takimi-4.jpg",
+        "alt": "Stockholm Antrasit Koltuk Takımı — görsel 4"
+      },
+      {
+        "file": "stockholm-antrasit-koltuk-takimi-5.jpg",
+        "alt": "Stockholm Antrasit Koltuk Takımı — görsel 5"
+      },
+      {
+        "file": "stockholm-antrasit-koltuk-takimi-6.png",
+        "alt": "Stockholm Antrasit Koltuk Takımı — görsel 6"
+      },
+      {
+        "file": "stockholm-antrasit-koltuk-takimi-7.png",
+        "alt": "Stockholm Antrasit Koltuk Takımı — görsel 7"
+      },
+      {
+        "file": "stockholm-antrasit-koltuk-takimi-8.png",
+        "alt": "Stockholm Antrasit Koltuk Takımı — görsel 8"
+      },
+      {
+        "file": "stockholm-antrasit-koltuk-takimi-9.png",
+        "alt": "Stockholm Antrasit Koltuk Takımı — görsel 9"
+      },
+      {
+        "file": "stockholm-antrasit-koltuk-takimi-10.png",
+        "alt": "Stockholm Antrasit Koltuk Takımı — görsel 10"
+      },
+      {
+        "file": "stockholm-antrasit-koltuk-takimi-11.png",
+        "alt": "Stockholm Antrasit Koltuk Takımı — görsel 11"
+      }
+    ]
+  },
+  {
+    "name": "Horizon Kanepe Siyah",
+    "slug": "horizon-kanepe-siyah",
+    "sortOrder": 6,
+    "description": "Alüminyum\nBOYUTK&ouml;şe Mod&uuml;l&uuml; 87 x 87 x 77 cm\nHorizon Tek Kollu Mod&uuml;l&uuml; 87 x 87 x 77 cm\nHorizon Tekli Koltuk Mod&uuml;l&uuml; 87 x 87 x 77 cm\nHorizon Kolsuz Mod&uuml;l&uuml; 87 x 87 x 77 cm\nHorizon Puf Mod&uuml;l&uuml; 87 x 87 x 42 cm\nHorizon Y&uuml;ksek Sehpa Mod&uuml;l&uuml; 90 x 90 x 42 cm\nHorizon Al&ccedil;ak Sehpa Mod&uuml;l&uuml; 90 x 90 x 26 cm\nHorizon C Sehpa Mod&uuml;l&uuml; 47 x 30 x 55 cm\nHorizon Dresuar Mod&uuml;l&uuml; 138 x 43 x 75 cm\nHorizon Tek Ayaklı Yan Sehpa Mod&uuml;l&uuml; 90 x 44 x 26 cm\nHorizon Ayaksız Sehpa Mod&uuml;l&uuml; 90 x 44 x 5 cm\nHorizon Side Table 90 x 90 cm",
+    "images": [
+      {
+        "file": "horizon-kanepe-siyah-1.png",
+        "alt": "Horizon Kanepe Siyah — görsel 1"
+      },
+      {
+        "file": "horizon-kanepe-siyah-2.jpg",
+        "alt": "Horizon Kanepe Siyah — görsel 2"
+      },
+      {
+        "file": "horizon-kanepe-siyah-3.jpg",
+        "alt": "Horizon Kanepe Siyah — görsel 3"
+      },
+      {
+        "file": "horizon-kanepe-siyah-4.jpg",
+        "alt": "Horizon Kanepe Siyah — görsel 4"
+      },
+      {
+        "file": "horizon-kanepe-siyah-5.jpg",
+        "alt": "Horizon Kanepe Siyah — görsel 5"
+      },
+      {
+        "file": "horizon-kanepe-siyah-6.jpg",
+        "alt": "Horizon Kanepe Siyah — görsel 6"
+      },
+      {
+        "file": "horizon-kanepe-siyah-7.jpg",
+        "alt": "Horizon Kanepe Siyah — görsel 7"
+      },
+      {
+        "file": "horizon-kanepe-siyah-8.jpg",
+        "alt": "Horizon Kanepe Siyah — görsel 8"
+      }
+    ]
+  },
+  {
+    "name": "Horizon Kanepe Beyaz",
+    "slug": "horizon-kanepe-beyaz",
+    "sortOrder": 7,
+    "description": "Alüminyum\nBOYUTK&ouml;şe Mod&uuml;l&uuml; 87 x 87 x 77 cm\nHorizon Tek Kollu Mod&uuml;l&uuml; 87 x 87 x 77 cm\nHorizon Tekli Koltuk Mod&uuml;l&uuml; 87 x 87 x 77 cm\nHorizon Kolsuz Mod&uuml;l&uuml; 87 x 87 x 77 cm\nHorizon Puf Mod&uuml;l&uuml; 87 x 87 x 42 cm\nHorizon Y&uuml;ksek Sehpa Mod&uuml;l&uuml; 90 x 90 x 42 cm\nHorizon Al&ccedil;ak Sehpa Mod&uuml;l&uuml; 90 x 90 x 26 cm\nHorizon C Sehpa Mod&uuml;l&uuml; 47 x 30 x 55 cm\nHorizon Dresuar Mod&uuml;l&uuml; 138 x 43 x 75 cm\nHorizon Tek Ayaklı Yan Sehpa Mod&uuml;l&uuml; 90 x 44 x 26 cm\nHorizon Ayaksız Sehpa Mod&uuml;l&uuml; 90 x 44 x 5 cm\nHorizon Side Table 90 x 90 cm",
+    "images": [
+      {
+        "file": "horizon-kanepe-beyaz-1.png",
+        "alt": "Horizon Kanepe Beyaz — görsel 1"
+      },
+      {
+        "file": "horizon-kanepe-beyaz-2.jpg",
+        "alt": "Horizon Kanepe Beyaz — görsel 2"
+      },
+      {
+        "file": "horizon-kanepe-beyaz-3.jpg",
+        "alt": "Horizon Kanepe Beyaz — görsel 3"
+      },
+      {
+        "file": "horizon-kanepe-beyaz-4.jpg",
+        "alt": "Horizon Kanepe Beyaz — görsel 4"
+      }
+    ]
+  },
+  {
+    "name": "Luxury  Koltuk Takımı",
+    "slug": "luxury-koltuk-takimi",
+    "sortOrder": 8,
+    "description": "Cappucino ve Antrasit renk seçenekleri mevcuttur.\nBOYUT3'l&uuml; Kanepe 195 x 78 x 86 cm\nTekli Koltuk 80 x 78 x 86 cm\nOrta Sehpa 140 x 70 x 42 cm",
+    "images": [
+      {
+        "file": "luxury-koltuk-takimi-1.png",
+        "alt": "Luxury  Koltuk Takımı — görsel 1"
+      },
+      {
+        "file": "luxury-koltuk-takimi-2.jpg",
+        "alt": "Luxury  Koltuk Takımı — görsel 2"
+      },
+      {
+        "file": "luxury-koltuk-takimi-3.jpg",
+        "alt": "Luxury  Koltuk Takımı — görsel 3"
+      },
+      {
+        "file": "luxury-koltuk-takimi-4.jpg",
+        "alt": "Luxury  Koltuk Takımı — görsel 4"
+      }
+    ]
+  },
+  {
+    "name": "Icon Koltuk Takımı",
+    "slug": "icon-koltuk-takimi",
+    "sortOrder": 9,
+    "description": "İroko\nBOYUT3'l&uuml; Kanepe 290 x 100 x 60cm\n2'li Kanepe 195 x 100 x 60cm\nTekli Koltuk 102 x 100 x 60cm\nOrta Sehpa 100 x 135 x 36cm",
+    "images": [
+      {
+        "file": "icon-koltuk-takimi-1.png",
+        "alt": "Icon Koltuk Takımı — görsel 1"
+      },
+      {
+        "file": "icon-koltuk-takimi-2.jpg",
+        "alt": "Icon Koltuk Takımı — görsel 2"
+      },
+      {
+        "file": "icon-koltuk-takimi-3.jpg",
+        "alt": "Icon Koltuk Takımı — görsel 3"
+      },
+      {
+        "file": "icon-koltuk-takimi-4.jpg",
+        "alt": "Icon Koltuk Takımı — görsel 4"
+      }
+    ]
+  },
+  {
+    "name": "Tencent Koltuk Takımı",
+    "slug": "tencent-koltuk-takimi",
+    "sortOrder": 10,
+    "description": null,
+    "images": [
+      {
+        "file": "tencent-koltuk-takimi-1.png",
+        "alt": "Tencent Koltuk Takımı — görsel 1"
+      }
+    ]
+  },
+  {
+    "name": "Lara Koltuk Takımı",
+    "slug": "lara-koltuk-takimi",
+    "sortOrder": 11,
+    "description": "Iroko, agora solmaz ve su geçirmez kumaş",
+    "images": [
+      {
+        "file": "lara-koltuk-takimi-1.png",
+        "alt": "Lara Koltuk Takımı — görsel 1"
+      },
+      {
+        "file": "lara-koltuk-takimi-2.png",
+        "alt": "Lara Koltuk Takımı — görsel 2"
+      },
+      {
+        "file": "lara-koltuk-takimi-3.png",
+        "alt": "Lara Koltuk Takımı — görsel 3"
+      },
+      {
+        "file": "lara-koltuk-takimi-4.png",
+        "alt": "Lara Koltuk Takımı — görsel 4"
+      },
+      {
+        "file": "lara-koltuk-takimi-5.png",
+        "alt": "Lara Koltuk Takımı — görsel 5"
+      }
+    ]
+  },
+  {
+    "name": "Seul Koltuk Takımı",
+    "slug": "seul-koltuk-takimi",
+    "sortOrder": 12,
+    "description": "Alüminyum\nİroko",
+    "images": [
+      {
+        "file": "seul-koltuk-takimi-1.png",
+        "alt": "Seul Koltuk Takımı — görsel 1"
+      }
+    ]
+  },
+  {
+    "name": "St. Jeanette White",
+    "slug": "st-jeanette-white",
+    "sortOrder": 13,
+    "description": "BOYUT3'l&uuml; Kanepe\n220 x 95 x 69 cm\nTekli Koltuk\n120 x 95 x 69 cm\nOrta Sehpa\n135 x 70 x 37 cm",
+    "images": [
+      {
+        "file": "st-jeanette-white-1.png",
+        "alt": "St. Jeanette White — görsel 1"
+      },
+      {
+        "file": "st-jeanette-white-2.jpg",
+        "alt": "St. Jeanette White — görsel 2"
+      },
+      {
+        "file": "st-jeanette-white-3.jpg",
+        "alt": "St. Jeanette White — görsel 3"
+      }
+    ]
+  },
+  {
+    "name": "St. Jeanette Cappuccino",
+    "slug": "st-jeanette-cappuccino",
+    "sortOrder": 14,
+    "description": "Poly Rattan\nBOYUT3'l&uuml; Kanepe\n220 x 95 x 69 cm\nTekli Koltuk\n120 x 95 x 69 cm\nOrta Sehpa\n135 x 70 x 37 cm",
+    "images": [
+      {
+        "file": "st-jeanette-cappuccino-1.png",
+        "alt": "St. Jeanette Cappuccino — görsel 1"
+      },
+      {
+        "file": "st-jeanette-cappuccino-2.jpg",
+        "alt": "St. Jeanette Cappuccino — görsel 2"
+      },
+      {
+        "file": "st-jeanette-cappuccino-3.jpg",
+        "alt": "St. Jeanette Cappuccino — görsel 3"
+      },
+      {
+        "file": "st-jeanette-cappuccino-4.jpg",
+        "alt": "St. Jeanette Cappuccino — görsel 4"
+      },
+      {
+        "file": "st-jeanette-cappuccino-5.jpg",
+        "alt": "St. Jeanette Cappuccino — görsel 5"
+      }
+    ]
+  },
+  {
+    "name": "Terra",
+    "slug": "terra",
+    "sortOrder": 15,
+    "description": "Iroko Ağacı\nBOYUTKanepe\n205 x 95 x 84 cm\nTekli Koltuk\n78 x 95 x 84 cm\nOrta Sehpa\n120 x 75 x 45 cm",
+    "images": [
+      {
+        "file": "terra-1.png",
+        "alt": "Terra — görsel 1"
+      },
+      {
+        "file": "terra-2.jpg",
+        "alt": "Terra — görsel 2"
+      },
+      {
+        "file": "terra-3.jpg",
+        "alt": "Terra — görsel 3"
+      },
+      {
+        "file": "terra-4.jpg",
+        "alt": "Terra — görsel 4"
+      },
+      {
+        "file": "terra-5.jpg",
+        "alt": "Terra — görsel 5"
+      },
+      {
+        "file": "terra-6.jpg",
+        "alt": "Terra — görsel 6"
+      },
+      {
+        "file": "terra-7.jpg",
+        "alt": "Terra — görsel 7"
+      },
+      {
+        "file": "terra-8.jpg",
+        "alt": "Terra — görsel 8"
+      },
+      {
+        "file": "terra-9.jpg",
+        "alt": "Terra — görsel 9"
+      },
+      {
+        "file": "terra-10.jpg",
+        "alt": "Terra — görsel 10"
+      },
+      {
+        "file": "terra-11.jpg",
+        "alt": "Terra — görsel 11"
+      },
+      {
+        "file": "terra-12.jpg",
+        "alt": "Terra — görsel 12"
+      },
+      {
+        "file": "terra-13.jpg",
+        "alt": "Terra — görsel 13"
+      },
+      {
+        "file": "terra-14.jpg",
+        "alt": "Terra — görsel 14"
+      }
+    ]
+  },
+  {
+    "name": "Bay Koltuk Takımı",
+    "slug": "bay-koltuk-takimi",
+    "sortOrder": 16,
+    "description": null,
+    "images": [
+      {
+        "file": "bay-koltuk-takimi-1.png",
+        "alt": "Bay Koltuk Takımı — görsel 1"
+      },
+      {
+        "file": "bay-koltuk-takimi-2.jpg",
+        "alt": "Bay Koltuk Takımı — görsel 2"
+      }
+    ]
+  },
+  {
+    "name": "Eve",
+    "slug": "eve",
+    "sortOrder": 17,
+    "description": "Teak\nBOYUT3'l&uuml; Kanepe 195 x 78 x 78 cm\nTekli Koltuk 68 x 78 x 78 cm\nPuf 55 x 55 x 32 cm\nOrta Sehpa 120 x 80 x 54 cm",
+    "images": [
+      {
+        "file": "eve-1.png",
+        "alt": "Eve — görsel 1"
+      },
+      {
+        "file": "eve-2.jpg",
+        "alt": "Eve — görsel 2"
+      },
+      {
+        "file": "eve-3.jpg",
+        "alt": "Eve — görsel 3"
+      },
+      {
+        "file": "eve-4.jpg",
+        "alt": "Eve — görsel 4"
+      },
+      {
+        "file": "eve-5.jpg",
+        "alt": "Eve — görsel 5"
+      },
+      {
+        "file": "eve-6.jpg",
+        "alt": "Eve — görsel 6"
+      },
+      {
+        "file": "eve-7.jpg",
+        "alt": "Eve — görsel 7"
+      },
+      {
+        "file": "eve-8.jpg",
+        "alt": "Eve — görsel 8"
+      },
+      {
+        "file": "eve-9.jpg",
+        "alt": "Eve — görsel 9"
+      },
+      {
+        "file": "eve-10.jpg",
+        "alt": "Eve — görsel 10"
+      },
+      {
+        "file": "eve-11.jpg",
+        "alt": "Eve — görsel 11"
+      },
+      {
+        "file": "eve-12.jpg",
+        "alt": "Eve — görsel 12"
+      },
+      {
+        "file": "eve-13.jpg",
+        "alt": "Eve — görsel 13"
+      }
+    ]
+  },
+  {
+    "name": "Panama",
+    "slug": "panama",
+    "sortOrder": 18,
+    "description": "Alüminyum\nBOYUT3'l&uuml; Kanepe 200 x 78 x 90 cm\nTekli Koltuk 74 x 78 x 90 cm\nOrta Sehpa 120 x 63 x 42 cm",
+    "images": [
+      {
+        "file": "panama-1.png",
+        "alt": "Panama — görsel 1"
+      },
+      {
+        "file": "panama-2.png",
+        "alt": "Panama — görsel 2"
+      },
+      {
+        "file": "panama-3.png",
+        "alt": "Panama — görsel 3"
+      },
+      {
+        "file": "panama-4.jpg",
+        "alt": "Panama — görsel 4"
+      },
+      {
+        "file": "panama-5.jpg",
+        "alt": "Panama — görsel 5"
+      },
+      {
+        "file": "panama-6.jpg",
+        "alt": "Panama — görsel 6"
+      },
+      {
+        "file": "panama-7.jpg",
+        "alt": "Panama — görsel 7"
+      },
+      {
+        "file": "panama-8.jpg",
+        "alt": "Panama — görsel 8"
+      }
+    ]
+  },
+  {
+    "name": "Portals Dark",
+    "slug": "portals-dark",
+    "sortOrder": 19,
+    "description": null,
+    "images": [
+      {
+        "file": "portals-dark-1.png",
+        "alt": "Portals Dark — görsel 1"
+      },
+      {
+        "file": "portals-dark-2.jpg",
+        "alt": "Portals Dark — görsel 2"
+      },
+      {
+        "file": "portals-dark-3.jpg",
+        "alt": "Portals Dark — görsel 3"
+      }
+    ]
+  },
+  {
+    "name": "Portals Light",
+    "slug": "portals-light",
+    "sortOrder": 20,
+    "description": "Alüminyum, Teak\nBOYUTDaybed 172 x 72 x 78 cm\nOrta Sehpa 72 x 72 x 32 cm",
+    "images": [
+      {
+        "file": "portals-light-1.png",
+        "alt": "Portals Light — görsel 1"
+      },
+      {
+        "file": "portals-light-2.jpg",
+        "alt": "Portals Light — görsel 2"
+      },
+      {
+        "file": "portals-light-3.jpg",
+        "alt": "Portals Light — görsel 3"
+      },
+      {
+        "file": "portals-light-4.jpg",
+        "alt": "Portals Light — görsel 4"
+      },
+      {
+        "file": "portals-light-5.jpg",
+        "alt": "Portals Light — görsel 5"
+      }
+    ]
+  },
+  {
+    "name": "Bahza Set",
+    "slug": "bahza-set",
+    "sortOrder": 21,
+    "description": "Alüminyum, Olefin İp\nBOYUTKanepe 141 x 88 x 83 cm\nTekli Koltuk 68 x 88 x 83 cm\nOrta Sehpa 110 x 60 x 32 cm",
+    "images": [
+      {
+        "file": "bahza-set-1.png",
+        "alt": "Bahza Set — görsel 1"
+      },
+      {
+        "file": "bahza-set-2.jpg",
+        "alt": "Bahza Set — görsel 2"
+      },
+      {
+        "file": "bahza-set-3.jpg",
+        "alt": "Bahza Set — görsel 3"
+      }
+    ]
+  },
+  {
+    "name": "Arno",
+    "slug": "arno",
+    "sortOrder": 22,
+    "description": "Teak, Tekstilen File, Olefin Kumaş\nBOYUTArno Koltuk 70 x 66 x 67 cm\nSehpa 65 x 65 x 30,5 cm",
+    "images": [
+      {
+        "file": "arno-1.png",
+        "alt": "Arno — görsel 1"
+      },
+      {
+        "file": "arno-2.jpg",
+        "alt": "Arno — görsel 2"
+      },
+      {
+        "file": "arno-3.jpg",
+        "alt": "Arno — görsel 3"
+      },
+      {
+        "file": "arno-4.jpg",
+        "alt": "Arno — görsel 4"
+      },
+      {
+        "file": "arno-5.jpg",
+        "alt": "Arno — görsel 5"
+      },
+      {
+        "file": "arno-6.jpg",
+        "alt": "Arno — görsel 6"
+      },
+      {
+        "file": "arno-7.jpg",
+        "alt": "Arno — görsel 7"
+      },
+      {
+        "file": "arno-8.jpg",
+        "alt": "Arno — görsel 8"
+      },
+      {
+        "file": "arno-9.jpg",
+        "alt": "Arno — görsel 9"
+      },
+      {
+        "file": "arno-10.jpg",
+        "alt": "Arno — görsel 10"
+      }
+    ]
+  },
+  {
+    "name": "Cross Koltuk Takımı",
+    "slug": "cross-koltuk-takimi",
+    "sortOrder": 23,
+    "description": "Iroko\nBOYUTKanepe 195 x 86 x 74 cm\nTekli Koltuk 85 x 86 x 74 cm\nOrta Sehpa 130 x 80 x 45 cm",
+    "images": [
+      {
+        "file": "cross-koltuk-takimi-1.png",
+        "alt": "Cross Koltuk Takımı — görsel 1"
+      },
+      {
+        "file": "cross-koltuk-takimi-2.jpg",
+        "alt": "Cross Koltuk Takımı — görsel 2"
+      },
+      {
+        "file": "cross-koltuk-takimi-3.jpg",
+        "alt": "Cross Koltuk Takımı — görsel 3"
+      },
+      {
+        "file": "cross-koltuk-takimi-4.jpg",
+        "alt": "Cross Koltuk Takımı — görsel 4"
+      }
+    ]
+  },
+  {
+    "name": "Sanibel",
+    "slug": "sanibel",
+    "sortOrder": 24,
+    "description": "Sanibel Koltuk Seti\nBOYUT3'l&uuml; Kanepe 207 x 87 x 80 cm\nTekli Koltuk 81 x 87 x 80 cm\nOrta Sehpa 122 x 76 x 36 cm\nYan Sehpa 56 x 51 x 51 cm",
+    "images": [
+      {
+        "file": "sanibel-1.png",
+        "alt": "Sanibel — görsel 1"
+      }
+    ]
+  },
+  {
+    "name": "Spider Koltuk Takımı",
+    "slug": "spider-koltuk-takimi",
+    "sortOrder": 25,
+    "description": "BOYUTKanepe\nTekli Koltuk\nY&uuml;ksek Sehpa &Oslash; 48 x 55 cm\nAl&ccedil;ak Sehpa &Oslash; 48 x 45 cm",
+    "images": [
+      {
+        "file": "spider-koltuk-takimi-1.png",
+        "alt": "Spider Koltuk Takımı — görsel 1"
+      }
+    ]
+  }
+]

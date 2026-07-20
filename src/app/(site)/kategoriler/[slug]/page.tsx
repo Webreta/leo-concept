@@ -32,7 +32,9 @@ export default async function KategoriDetayPage({
   const disMekan = allCategories.filter((c) => c.area === "dis-mekan");
 
   // Geniş ürünler (koltuk takımı, kanepe): tek sütun, yatay kart
-  const wide = category.slug === "koltuk-takimi-kanepe";
+  const wide =
+    category.slug === "koltuk-takimi-kanepe" ||
+    category.slug === "dis-koltuk-takimi-kanepe";
 
   return (
     <div className="bg-white">

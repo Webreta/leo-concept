@@ -1,0 +1,178 @@
+[
+  {
+    "name": "Yacht Collection Dark 01",
+    "slug": "yacht-collection-dark-01",
+    "sortOrder": 0,
+    "description": null,
+    "images": [
+      {
+        "file": "yacht-collection-dark-01-1.png",
+        "alt": "Yacht Collection Dark 01 — görsel 1"
+      },
+      {
+        "file": "yacht-collection-dark-01-2.jpg",
+        "alt": "Yacht Collection Dark 01 — görsel 2"
+      },
+      {
+        "file": "yacht-collection-dark-01-3.jpg",
+        "alt": "Yacht Collection Dark 01 — görsel 3"
+      }
+    ]
+  },
+  {
+    "name": "Yacht Collection Dark 02",
+    "slug": "yacht-collection-dark-02",
+    "sortOrder": 1,
+    "description": "BOYUT45 x 45 cm",
+    "images": [
+      {
+        "file": "yacht-collection-dark-02-1.png",
+        "alt": "Yacht Collection Dark 02 — görsel 1"
+      },
+      {
+        "file": "yacht-collection-dark-02-2.jpg",
+        "alt": "Yacht Collection Dark 02 — görsel 2"
+      },
+      {
+        "file": "yacht-collection-dark-02-3.jpg",
+        "alt": "Yacht Collection Dark 02 — görsel 3"
+      }
+    ]
+  },
+  {
+    "name": "Yacht Collection Dark 05",
+    "slug": "yacht-collection-dark-05",
+    "sortOrder": 2,
+    "description": "BOYUT45 x 45 cm",
+    "images": [
+      {
+        "file": "yacht-collection-dark-05-1.png",
+        "alt": "Yacht Collection Dark 05 — görsel 1"
+      },
+      {
+        "file": "yacht-collection-dark-05-2.jpg",
+        "alt": "Yacht Collection Dark 05 — görsel 2"
+      },
+      {
+        "file": "yacht-collection-dark-05-3.jpg",
+        "alt": "Yacht Collection Dark 05 — görsel 3"
+      }
+    ]
+  },
+  {
+    "name": "Yacht Collection Dark 06",
+    "slug": "yacht-collection-dark-06",
+    "sortOrder": 3,
+    "description": "BOYUT45 x 45 cm",
+    "images": [
+      {
+        "file": "yacht-collection-dark-06-1.png",
+        "alt": "Yacht Collection Dark 06 — görsel 1"
+      },
+      {
+        "file": "yacht-collection-dark-06-2.jpg",
+        "alt": "Yacht Collection Dark 06 — görsel 2"
+      },
+      {
+        "file": "yacht-collection-dark-06-3.jpg",
+        "alt": "Yacht Collection Dark 06 — görsel 3"
+      }
+    ]
+  },
+  {
+    "name": "Yacht Collection Navy 01",
+    "slug": "yacht-collection-navy-01",
+    "sortOrder": 4,
+    "description": "BOYUT45 x 45 cm",
+    "images": [
+      {
+        "file": "yacht-collection-navy-01-1.png",
+        "alt": "Yacht Collection Navy 01 — görsel 1"
+      }
+    ]
+  },
+  {
+    "name": "Yacht Collection Navy 02",
+    "slug": "yacht-collection-navy-02",
+    "sortOrder": 5,
+    "description": "BOYUT45 x 45 cm",
+    "images": [
+      {
+        "file": "yacht-collection-navy-02-1.png",
+        "alt": "Yacht Collection Navy 02 — görsel 1"
+      }
+    ]
+  },
+  {
+    "name": "Yacht Collection Navy 04",
+    "slug": "yacht-collection-navy-04",
+    "sortOrder": 6,
+    "description": "BOYUT45 x 45 cm",
+    "images": [
+      {
+        "file": "yacht-collection-navy-04-1.png",
+        "alt": "Yacht Collection Navy 04 — görsel 1"
+      }
+    ]
+  },
+  {
+    "name": "Yacht Collection Navy 06",
+    "slug": "yacht-collection-navy-06",
+    "sortOrder": 7,
+    "description": "BOYUT45 x 45 cm",
+    "images": [
+      {
+        "file": "yacht-collection-navy-06-1.png",
+        "alt": "Yacht Collection Navy 06 — görsel 1"
+      }
+    ]
+  },
+  {
+    "name": "Yacht Collection Soft 01",
+    "slug": "yacht-collection-soft-01",
+    "sortOrder": 8,
+    "description": "BOYUT45 x 45 cm",
+    "images": [
+      {
+        "file": "yacht-collection-soft-01-1.png",
+        "alt": "Yacht Collection Soft 01 — görsel 1"
+      }
+    ]
+  },
+  {
+    "name": "Yacht Collection Soft 04",
+    "slug": "yacht-collection-soft-04",
+    "sortOrder": 9,
+    "description": "BOYUT45 x 45 cm",
+    "images": [
+      {
+        "file": "yacht-collection-soft-04-1.png",
+        "alt": "Yacht Collection Soft 04 — görsel 1"
+      }
+    ]
+  },
+  {
+    "name": "Yacht Collection Soft 06",
+    "slug": "yacht-collection-soft-06",
+    "sortOrder": 10,
+    "description": "BOYUT45 x 45 cm",
+    "images": [
+      {
+        "file": "yacht-collection-soft-06-1.png",
+        "alt": "Yacht Collection Soft 06 — görsel 1"
+      }
+    ]
+  },
+  {
+    "name": "Yacht Collection Soft 07",
+    "slug": "yacht-collection-soft-07",
+    "sortOrder": 11,
+    "description": "BOYUT45 x 45 cm",
+    "images": [
+      {
+        "file": "yacht-collection-soft-07-1.png",
+        "alt": "Yacht Collection Soft 07 — görsel 1"
+      }
+    ]
+  }
+]

@@ -108,17 +108,70 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* Özel Tasarım CTA */}
-      <section className="bg-charcoal py-20 text-center text-ivory">
-        <div className="mx-auto max-w-2xl px-4">
-          <h2 className="text-3xl md:text-4xl">Özel Tasarım</h2>
-          <p className="mt-4 text-ivory/70">
+      {/* Özel Tasarım CTA — dark banner: dev bronz halkalar, güçlü parıltı, çapraz ışık */}
+      <section className="relative overflow-hidden bg-gradient-to-br from-[#3a332a] via-charcoal to-black py-24 text-center text-ivory lg:py-28">
+        {/* Sol: ekran dışına taşan eş merkezli bronz halkalar */}
+        <div
+          aria-hidden
+          className="absolute -left-56 top-1/2 h-[44rem] w-[44rem] -translate-y-1/2 rounded-full border border-bronze/30"
+        />
+        <div
+          aria-hidden
+          className="absolute -left-40 top-1/2 h-[36rem] w-[36rem] -translate-y-1/2 rounded-full border border-bronze/20"
+        />
+        <div
+          aria-hidden
+          className="absolute -left-24 top-1/2 h-[28rem] w-[28rem] -translate-y-1/2 rounded-full border-2 border-bronze/10 bg-bronze/[0.07]"
+        />
+        {/* Sağ: dev yarım halka + güçlü radyal parıltı */}
+        <div
+          aria-hidden
+          className="absolute -right-72 top-1/2 h-[56rem] w-[56rem] -translate-y-1/2 rounded-full border border-bronze/25"
+        />
+        <div
+          aria-hidden
+          className="absolute -right-40 top-1/2 h-[30rem] w-[30rem] -translate-y-1/2 rounded-full bg-bronze/20 blur-3xl"
+        />
+        <div
+          aria-hidden
+          className="absolute -left-32 top-1/2 h-[26rem] w-[26rem] -translate-y-1/2 rounded-full bg-bronze/15 blur-3xl"
+        />
+        {/* Çapraz ışık süpürmesi */}
+        <div
+          aria-hidden
+          className="absolute left-1/2 top-1/2 h-[70rem] w-40 -translate-x-1/2 -translate-y-1/2 rotate-[30deg] bg-gradient-to-b from-transparent via-ivory/[0.05] to-transparent blur-2xl"
+        />
+        {/* Logo filigranı */}
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/uploads/leo-concept-logo-beyaz.png"
+          alt=""
+          aria-hidden
+          className="pointer-events-none absolute right-[6%] top-1/2 hidden w-80 -translate-y-1/2 opacity-[0.08] lg:block"
+        />
+        {/* İnce bronz üst/alt çizgiler */}
+        <div
+          aria-hidden
+          className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-bronze/70 to-transparent"
+        />
+        <div
+          aria-hidden
+          className="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-bronze/70 to-transparent"
+        />
+
+        <div className="relative mx-auto max-w-2xl px-4">
+          <p className="text-[11px] font-medium uppercase tracking-[0.4em] text-bronze">
+            Size Özel
+          </p>
+          <h2 className="mt-3 text-3xl md:text-4xl">Özel Tasarım</h2>
+          <span className="mx-auto mt-5 block h-px w-12 bg-bronze/70" />
+          <p className="mt-5 text-ivory/70">
             Yaşam alanınıza özel ölçü ve tasarımda üretim için bizimle
             iletişime geçin.
           </p>
           <Link
             href="/ozel-tasarim"
-            className="mt-8 inline-block rounded-full border border-ivory/40 px-8 py-3 text-sm font-semibold tracking-wide transition-colors hover:border-bronze hover:text-bronze"
+            className="mt-8 inline-block rounded-full border border-bronze/60 bg-bronze/10 px-8 py-3 text-sm font-semibold tracking-wide text-bronze transition-colors hover:bg-bronze hover:text-charcoal"
           >
             Detaylı Bilgi
           </Link>
@@ -150,7 +203,6 @@ const branches = [
     address: "İnönü Mah. 5031 Sk. No:12, Çeşme / İzmir",
     phone: "+90 232 000 00 01",
     hours: "Her gün 09.00 – 19.00",
-    imageUrl: "/uploads/kategori-koltuk-takimi-kanepe.jpg",
     mapUrl: "https://maps.google.com/?q=LEO+Concept+Çeşme",
   },
   {
@@ -158,7 +210,6 @@ const branches = [
     address: "Konacık Mah. Atatürk Blv. No:48, Bodrum / Muğla",
     phone: "+90 252 000 00 02",
     hours: "Her gün 09.00 – 19.00",
-    imageUrl: "/uploads/kategori-tekli-koltuk.jpg",
     mapUrl: "https://maps.google.com/?q=LEO+Concept+Bodrum",
   },
   {
@@ -166,31 +217,41 @@ const branches = [
     address: "Cüneytbey Mah. İzmir Cad. No:210, Menderes / İzmir",
     phone: "+90 232 000 00 03",
     hours: "Her gün 09.00 – 19.00",
-    imageUrl: "/uploads/kategori-vitrin-konsol.jpg",
     mapUrl: "https://maps.google.com/?q=LEO+Concept+Menderes",
   },
 ];
 
-// Şube kartı: görsel üzerine charcoal gradyan, altta adres ve iletişim;
+// Şube kartı: dark gradyan zemin üzerine beyaz logo, altta adres ve iletişim;
 // köşe dili katalog kartlarıyla aynı (büyük sağ-üst radius).
 function BranchCard({
   name,
   address,
   phone,
   hours,
-  imageUrl,
   mapUrl,
 }: (typeof branches)[number]) {
   return (
-    <div className="group relative aspect-[4/5] overflow-hidden rounded-[2rem] rounded-tr-[6rem] bg-charcoal text-ivory shadow-lg">
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img
-        src={imageUrl}
-        alt={`LEO Concept ${name} şubesi`}
-        loading="lazy"
-        className="absolute inset-0 h-full w-full object-cover opacity-90 transition-transform duration-700 group-hover:scale-105"
+    <div className="group relative aspect-[4/5] overflow-hidden rounded-[2rem] rounded-tr-[6rem] bg-gradient-to-br from-[#332e28] via-charcoal to-black text-ivory shadow-lg">
+      {/* Bronz parıltı — hover'da hafifçe güçlenir */}
+      <div
+        aria-hidden
+        className="absolute -right-20 -top-20 h-72 w-72 rounded-full bg-bronze/15 blur-3xl transition-colors duration-700 group-hover:bg-bronze/25"
       />
-      <div className="absolute inset-0 bg-gradient-to-t from-charcoal via-charcoal/40 to-transparent" />
+      <div
+        aria-hidden
+        className="absolute -bottom-24 -left-16 h-64 w-64 rounded-full bg-bronze/10 blur-3xl"
+      />
+      {/* Beyaz logo — kartın üst yarısında ortalanmış */}
+      <div className="absolute inset-x-0 top-0 flex h-[52%] items-center justify-center px-10">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/uploads/leo-concept-logo-beyaz.png"
+          alt={`LEO Concept ${name} şubesi`}
+          loading="lazy"
+          className="max-h-24 w-auto max-w-[70%] opacity-90 drop-shadow-[0_10px_25px_rgba(0,0,0,0.45)] transition-transform duration-700 group-hover:scale-105"
+        />
+      </div>
+      <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
 
       <div className="absolute inset-x-0 bottom-0 p-7">
         <p className="text-[10px] font-medium uppercase tracking-[0.35em] text-bronze">
@@ -247,21 +308,39 @@ function AreaIntro({
           imageLeft ? "" : "lg:flex-row-reverse"
         }`}
       >
-        {/* Görsel */}
+        {/* Görsel: ofsetli arka katman + yumuşak gölge ile 3D derinlik */}
         <div className={`lg:w-[55%] ${imageLeft ? "lg:pr-0" : "lg:pl-0"}`}>
           <div
-            className={`aspect-[5/2] overflow-hidden bg-sand ${
-              imageLeft
-                ? "rounded-r-full lg:ml-16"
-                : "rounded-l-full lg:mr-16"
+            className={`group/img relative ${
+              imageLeft ? "lg:ml-16" : "lg:mr-16"
             }`}
           >
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={imageUrl}
-              alt={title}
-              className="h-full w-full object-cover"
+            {/* Arkada bronz ofset pill — çerçevenin altından taşan katman */}
+            <div
+              aria-hidden
+              className={`absolute inset-0 translate-y-3 bg-bronze/20 ${
+                imageLeft
+                  ? "translate-x-3 rounded-r-full"
+                  : "-translate-x-3 rounded-l-full"
+              }`}
             />
+            <div
+              className={`relative aspect-[5/2] overflow-hidden bg-sand ring-1 ring-charcoal/10 shadow-[0_35px_70px_-25px_rgba(31,29,26,0.5)] transition-transform duration-500 group-hover/img:-translate-y-1.5 ${
+                imageLeft ? "rounded-r-full" : "rounded-l-full"
+              }`}
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={imageUrl}
+                alt={title}
+                className="h-full w-full object-cover transition-transform duration-700 group-hover/img:scale-[1.04]"
+              />
+              {/* Üstten ışık, alttan hafif gölge — kavisli yüzey hissi */}
+              <div
+                aria-hidden
+                className="pointer-events-none absolute inset-0 bg-gradient-to-b from-white/20 via-transparent to-charcoal/25"
+              />
+            </div>
           </div>
         </div>
 
