@@ -1,0 +1,254 @@
+[
+  {
+    "name": "Autumn Sandalye",
+    "slug": "autumn-sandalye",
+    "sortOrder": 0,
+    "description": "Metal, Doğal Rattan\nSiyah / Naturel (renk seçenekleri)\nBOYUT\n46 x 62 x 84 cm",
+    "images": [
+      {
+        "file": "autumn-sandalye-1.png",
+        "alt": "Autumn Sandalye — görsel 1"
+      },
+      {
+        "file": "autumn-sandalye-2.jpg",
+        "alt": "Autumn Sandalye — görsel 2"
+      },
+      {
+        "file": "autumn-sandalye-3.jpg",
+        "alt": "Autumn Sandalye — görsel 3"
+      }
+    ]
+  },
+  {
+    "name": "Cup Sandalye",
+    "slug": "cup-sandalye",
+    "sortOrder": 1,
+    "description": "Metal, Doğal Rattan\nBOYUT\n46 x 62 x 84 cm",
+    "images": [
+      {
+        "file": "cup-sandalye-1.png",
+        "alt": "Cup Sandalye — görsel 1"
+      },
+      {
+        "file": "cup-sandalye-2.png",
+        "alt": "Cup Sandalye — görsel 2"
+      },
+      {
+        "file": "cup-sandalye-3.jpg",
+        "alt": "Cup Sandalye — görsel 3"
+      }
+    ]
+  },
+  {
+    "name": "Fjord Sandalye",
+    "slug": "fjord-sandalye",
+    "sortOrder": 2,
+    "description": "Metal, Doğal Rattan\nBOYUT\n50 x 63 x 88 cm",
+    "images": [
+      {
+        "file": "fjord-sandalye-1.png",
+        "alt": "Fjord Sandalye — görsel 1"
+      },
+      {
+        "file": "fjord-sandalye-2.jpg",
+        "alt": "Fjord Sandalye — görsel 2"
+      }
+    ]
+  },
+  {
+    "name": "Capetown Bar Taburesi",
+    "slug": "capetown-bar-taburesi-ic",
+    "sortOrder": 3,
+    "description": "Teak\nBOYUT\n35 x 78 cm",
+    "images": [
+      {
+        "file": "capetown-bar-taburesi-ic-1.png",
+        "alt": "Capetown Bar Taburesi — görsel 1"
+      },
+      {
+        "file": "capetown-bar-taburesi-ic-2.jpg",
+        "alt": "Capetown Bar Taburesi — görsel 2"
+      },
+      {
+        "file": "capetown-bar-taburesi-ic-3.jpg",
+        "alt": "Capetown Bar Taburesi — görsel 3"
+      }
+    ]
+  },
+  {
+    "name": "Newyork Sandalye",
+    "slug": "newyork-sandalye",
+    "sortOrder": 4,
+    "description": "Metal, Doğal Rattan\nBOYUT\n50 x 60 x 90 cm",
+    "images": [
+      {
+        "file": "newyork-sandalye-1.png",
+        "alt": "Newyork Sandalye — görsel 1"
+      }
+    ]
+  },
+  {
+    "name": "Manhattean Sandalye",
+    "slug": "manhattean-sandalye",
+    "sortOrder": 5,
+    "description": "Metal, Doğal Rattan\nSiyah / Naturel (renk seçenekleri)\nBOYUT\n57 x 64 x 81 cm",
+    "images": [
+      {
+        "file": "manhattean-sandalye-1.png",
+        "alt": "Manhattean Sandalye — görsel 1"
+      }
+    ]
+  },
+  {
+    "name": "Loleza Sandalye",
+    "slug": "loleza-sandalye",
+    "sortOrder": 6,
+    "description": "Teak, İp Örgü\nBOYUT\n60 x 59 x 75 cm",
+    "images": [
+      {
+        "file": "loleza-sandalye-1.png",
+        "alt": "Loleza Sandalye — görsel 1"
+      }
+    ]
+  },
+  {
+    "name": "Kennedy Sandalye",
+    "slug": "kennedy-sandalye",
+    "sortOrder": 7,
+    "description": "Teak, Muz Lifi\nBOYUT\n58 x 56 x 78 cm",
+    "images": [
+      {
+        "file": "kennedy-sandalye-1.png",
+        "alt": "Kennedy Sandalye — görsel 1"
+      }
+    ]
+  },
+  {
+    "name": "Chapung Sandalye",
+    "slug": "chapung-sandalye",
+    "sortOrder": 8,
+    "description": "Teak, Doğal Rattan\nBOYUT\n60 x 60 x 85 cm",
+    "images": [
+      {
+        "file": "chapung-sandalye-1.png",
+        "alt": "Chapung Sandalye — görsel 1"
+      },
+      {
+        "file": "chapung-sandalye-2.jpg",
+        "alt": "Chapung Sandalye — görsel 2"
+      }
+    ]
+  },
+  {
+    "name": "Faroe Sandalye",
+    "slug": "faroe-sandalye",
+    "sortOrder": 9,
+    "description": null,
+    "images": [
+      {
+        "file": "faroe-sandalye-1.png",
+        "alt": "Faroe Sandalye — görsel 1"
+      },
+      {
+        "file": "faroe-sandalye-2.jpg",
+        "alt": "Faroe Sandalye — görsel 2"
+      },
+      {
+        "file": "faroe-sandalye-3.png",
+        "alt": "Faroe Sandalye — görsel 3"
+      },
+      {
+        "file": "faroe-sandalye-4.png",
+        "alt": "Faroe Sandalye — görsel 4"
+      }
+    ]
+  },
+  {
+    "name": "Peacook Tabure",
+    "slug": "peacook-tabure",
+    "sortOrder": 10,
+    "description": "Doğal Rattan\nBOYUT\n40 x 47 cm",
+    "images": [
+      {
+        "file": "peacook-tabure-1.png",
+        "alt": "Peacook Tabure — görsel 1"
+      },
+      {
+        "file": "peacook-tabure-2.jpg",
+        "alt": "Peacook Tabure — görsel 2"
+      }
+    ]
+  },
+  {
+    "name": "Mushroom Tabure",
+    "slug": "mushroom-tabure",
+    "sortOrder": 11,
+    "description": "Doğal Rattan\nBOYUT\n45 x 47 cm",
+    "images": [
+      {
+        "file": "mushroom-tabure-1.png",
+        "alt": "Mushroom Tabure — görsel 1"
+      }
+    ]
+  },
+  {
+    "name": "Ranch Bar Tabure",
+    "slug": "ranch-bar-tabure",
+    "sortOrder": 12,
+    "description": null,
+    "images": [
+      {
+        "file": "ranch-bar-tabure-1.png",
+        "alt": "Ranch Bar Tabure — görsel 1"
+      }
+    ]
+  },
+  {
+    "name": "Kansas Bar Tabure",
+    "slug": "kansas-bar-tabure",
+    "sortOrder": 13,
+    "description": "Teak\nBOYUT\nBüyük Boy 35 x 72 cm\nKüçük Boy 35 x 62 cm",
+    "images": [
+      {
+        "file": "kansas-bar-tabure-1.png",
+        "alt": "Kansas Bar Tabure — görsel 1"
+      },
+      {
+        "file": "kansas-bar-tabure-2.jpg",
+        "alt": "Kansas Bar Tabure — görsel 2"
+      }
+    ]
+  },
+  {
+    "name": "Donna Tabure",
+    "slug": "donna-tabure",
+    "sortOrder": 14,
+    "description": "Teak, İp Örgü\nBOYUT\n60 x 40 x 45 cm",
+    "images": [
+      {
+        "file": "donna-tabure-1.png",
+        "alt": "Donna Tabure — görsel 1"
+      },
+      {
+        "file": "donna-tabure-2.jpg",
+        "alt": "Donna Tabure — görsel 2"
+      }
+    ]
+  },
+  {
+    "name": "Donna Bench",
+    "slug": "donna-bench",
+    "sortOrder": 15,
+    "description": "Teak, İp Örgü\nBOYUT\n140 x 40 x 45 cm",
+    "images": [
+      {
+        "file": "donna-bench-1.png",
+        "alt": "Donna Bench — görsel 1"
+      },
+      {
+        "file": "donna-bench-2.jpg",
+        "alt": "Donna Bench — görsel 2"
+      }
+    ]
+  }
+]

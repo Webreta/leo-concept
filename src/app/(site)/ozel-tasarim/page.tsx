@@ -12,9 +12,7 @@ export default function OzelTasarimPage() {
       </p>
       <h1 className="mt-3 text-center text-4xl md:text-5xl">Özel Tasarım</h1>
       <p className="mx-auto mt-5 max-w-2xl text-center text-ink/60">
-        Yaşam alanınızın ölçülerine, tarzınıza ve ihtiyaçlarınıza özel mobilya
-        tasarımı ve üretimi yapıyoruz. Kumaş, renk ve malzeme seçiminden son
-        rötuşlara kadar her aşamada sizinle birlikte çalışıyoruz.
+        Yaşam alanınıza özel mobilya tasarlıyor ve üretiyoruz.
       </p>
 
       <div className="mt-14 grid overflow-hidden rounded-[2rem] rounded-tr-[6rem] shadow-2xl lg:grid-cols-2">

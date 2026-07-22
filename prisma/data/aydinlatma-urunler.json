@@ -6,7 +6,7 @@
     "description": "Şeftali Rengi / Beyaz (renk seçenekleri)\nBOYUT\n30 cm",
     "images": [
       {
-        "file": "sauca-konik-gaz-lambasi-1.jpg",
+        "file": "sauca-konik-gaz-lambasi-1.png",
         "alt": "Sauca Konik Gaz Lambası — görsel 1"
       }
     ]
@@ -18,7 +18,7 @@
     "description": "İzlanda Mavi / Taba (renk seçenekleri)\nBOYUT\n30 cm",
     "images": [
       {
-        "file": "sauca-tombul-gaz-lambasi-1.jpg",
+        "file": "sauca-tombul-gaz-lambasi-1.png",
         "alt": "Sauca Tombul Gaz Lambası — görsel 1"
       }
     ]
@@ -30,7 +30,7 @@
     "description": "Porselen & Pirinç\nBOYUT\n30 cm",
     "images": [
       {
-        "file": "sauca-kulplu-gaz-lambasi-1.jpg",
+        "file": "sauca-kulplu-gaz-lambasi-1.png",
         "alt": "Sauca Kulplu Gaz Lambası — görsel 1"
       }
     ]
@@ -42,7 +42,7 @@
     "description": "TEAK\nBOYUT\n25 x 25 x 140 cm",
     "images": [
       {
-        "file": "toothpick-lambader-1.jpg",
+        "file": "toothpick-lambader-1.png",
         "alt": "Toothpick Lambader — görsel 1"
       }
     ]
@@ -54,7 +54,7 @@
     "description": "Rattan\nBOYUT\n48 x 50 x 135 cm",
     "images": [
       {
-        "file": "lime-lambader-1.jpg",
+        "file": "lime-lambader-1.png",
         "alt": "Lime Lambader — görsel 1"
       }
     ]
@@ -66,7 +66,7 @@
     "description": "TEAK\nBOYUT\n53 x 53 x 135 cm",
     "images": [
       {
-        "file": "twisted-lambader-1.jpg",
+        "file": "twisted-lambader-1.png",
         "alt": "Twisted Lambader — görsel 1"
       }
     ]
@@ -78,7 +78,7 @@
     "description": "Teak\nBOYUT\n40 x 40 x 150 cm\n30 x 30 x 120 cm",
     "images": [
       {
-        "file": "jepare-2li-fener-seti-1.jpg",
+        "file": "jepare-2li-fener-seti-1.png",
         "alt": "Jepare 2'li Fener Seti — görsel 1"
       }
     ]
@@ -90,7 +90,7 @@
     "description": "Rattan\nBOYUT\n65 x 50 cm\n36 x 50 cm\n23 x 40 cm\n25 x 30 cm",
     "images": [
       {
-        "file": "kariatis-tavan-lambasi-serisi-1.jpg",
+        "file": "kariatis-tavan-lambasi-serisi-1.png",
         "alt": "Kariatis Tavan Lambası Serisi — görsel 1"
       }
     ]
@@ -102,7 +102,7 @@
     "description": "Rattan\nBOYUT\n50 cm",
     "images": [
       {
-        "file": "atom-rattan-tavan-lambasi-1.jpg",
+        "file": "atom-rattan-tavan-lambasi-1.png",
         "alt": "Atom Rattan Tavan Lambası — görsel 1"
       }
     ]
@@ -114,7 +114,7 @@
     "description": "Rattan\nBOYUT\n71 x 48 cm\n51 x 36 cm\n21 x 27 cm",
     "images": [
       {
-        "file": "globe-tavan-lambasi-serisi-1.jpg",
+        "file": "globe-tavan-lambasi-serisi-1.png",
         "alt": "Globe Tavan Lambası Serisi — görsel 1"
       }
     ]
@@ -126,31 +126,19 @@
     "description": "Rattan\nBOYUT\n65 x 83 cm\n56 x 61 cm",
     "images": [
       {
-        "file": "marocco-tavan-lambasi-serisi-1.jpg",
+        "file": "marocco-tavan-lambasi-serisi-1.png",
         "alt": "Marocco Tavan Lambası Serisi — görsel 1"
-      }
-    ]
-  },
-  {
-    "name": "Diana Rattan Tavan Lambası",
-    "slug": "diana-rattan-tavan-lambasi",
-    "sortOrder": 11,
-    "description": "Rattan\nBOYUT\n21 cm",
-    "images": [
-      {
-        "file": "diana-rattan-tavan-lambasi-1.jpg",
-        "alt": "Diana Rattan Tavan Lambası — görsel 1"
       }
     ]
   },
   {
     "name": "Dusseldorf Fener",
     "slug": "dusseldorf-fener",
-    "sortOrder": 12,
+    "sortOrder": 11,
     "description": "BOYUT\nØ 35 x 45 cm\nØ 35 x 35 cm",
     "images": [
       {
-        "file": "dusseldorf-fener-1.jpg",
+        "file": "dusseldorf-fener-1.png",
         "alt": "Dusseldorf Fener — görsel 1"
       }
     ]
@@ -158,7 +146,7 @@
   {
     "name": "Knot Lamba Serisi",
     "slug": "knot-lamba-serisi",
-    "sortOrder": 13,
+    "sortOrder": 12,
     "description": "Metal İskelet Üzerine İp Örgü\nBOYUT\nØ 35 x 60 cm\nØ 40 x 70 cm\nØ 35 x 80 cm\nØ 55 x 120 cm\nØ 43 x 200 cm\nØ 90 x 95 cm",
     "images": [
       {

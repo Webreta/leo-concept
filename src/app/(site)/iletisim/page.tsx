@@ -17,7 +17,6 @@ export default async function IletisimPage() {
       <h1 className="mt-3 text-center text-4xl md:text-5xl">İletişim</h1>
       <p className="mx-auto mt-5 max-w-2xl text-center text-ink/60">
         Sorularınız, teklif talepleriniz ve projeleriniz için buradayız.
-        Formu doldurun ya da size en yakın mağazamıza uğrayın.
       </p>
 
       <div className="mt-14 grid overflow-hidden rounded-[2rem] rounded-tr-[6rem] bg-gradient-to-br from-[#332e28] via-charcoal to-black text-ivory shadow-2xl lg:grid-cols-5">

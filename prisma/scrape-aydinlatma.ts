@@ -19,7 +19,6 @@ const pages: { path: string; slug: string }[] = [
   { path: "/kesfet/1019/aydınlatma/1271/atom-rattan-tavan-lambası.aspx", slug: "atom-rattan-tavan-lambasi" },
   { path: "/kesfet/1019/aydınlatma/1270/globe-tavan-lambası-serisi.aspx", slug: "globe-tavan-lambasi-serisi" },
   { path: "/kesfet/1019/aydınlatma/1269/marocco-tavan-lambası-serisi.aspx", slug: "marocco-tavan-lambasi-serisi" },
-  { path: "/kesfet/1019/aydınlatma/1272/diana-rattan-tavan-lambası.aspx", slug: "diana-rattan-tavan-lambasi" },
   { path: "/kesfet/1019/aydınlatma/1343/dusseldorf-fener.aspx", slug: "dusseldorf-fener" },
   { path: "/kesfet/1019/aydınlatma/1410/knot-lamba-serisi.aspx", slug: "knot-lamba-serisi" },
 ];

@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Casablanca - 05",
+    "slug": "casablanca-05",
+    "sortOrder": 0,
+    "description": "Doğal\nSu Sümbülü\nBOYUT\n90 x 30 x 45 cm",
+    "images": [
+      {
+        "file": "casablanca-05-1.png",
+        "alt": "Casablanca - 05 — görsel 1"
+      }
+    ]
+  },
+  {
+    "name": "Casablanca - 04",
+    "slug": "casablanca-04",
+    "sortOrder": 1,
+    "description": "Doğal\nSu Sümbülü\nBOYUT\n50 x 50 x 20 cm",
+    "images": [
+      {
+        "file": "casablanca-04-1.png",
+        "alt": "Casablanca - 04 — görsel 1"
+      }
+    ]
+  },
+  {
+    "name": "Casablanca - 03",
+    "slug": "casablanca-03",
+    "sortOrder": 2,
+    "description": "Doğal\nSu Sümbülü\nBOYUT\n40 x 45 cm",
+    "images": [
+      {
+        "file": "casablanca-03-1.png",
+        "alt": "Casablanca - 03 — görsel 1"
+      }
+    ]
+  },
+  {
+    "name": "Casablanca - 02",
+    "slug": "casablanca-02",
+    "sortOrder": 3,
+    "description": "Doğal\nSu Sümbülü\nBOYUT\n60 x 45 cm",
+    "images": [
+      {
+        "file": "casablanca-02-1.png",
+        "alt": "Casablanca - 02 — görsel 1"
+      }
+    ]
+  },
+  {
+    "name": "Casablanca - 01",
+    "slug": "casablanca-01",
+    "sortOrder": 4,
+    "description": "Doğal\nSu Sümbülü\nBOYUT\n45 x 40 cm",
+    "images": [
+      {
+        "file": "casablanca-01-1.png",
+        "alt": "Casablanca - 01 — görsel 1"
+      }
+    ]
+  },
+  {
+    "name": "Shaggy Kare Naturel Puf",
+    "slug": "shaggy-kare-naturel-puf",
+    "sortOrder": 5,
+    "description": null,
+    "images": [
+      {
+        "file": "shaggy-kare-naturel-puf-1.png",
+        "alt": "Shaggy Kare Naturel Puf — görsel 1"
+      }
+    ]
+  },
+  {
+    "name": "Shaggy Kare Siyah Puf",
+    "slug": "shaggy-kare-siyah-puf",
+    "sortOrder": 6,
+    "description": null,
+    "images": [
+      {
+        "file": "shaggy-kare-siyah-puf-1.png",
+        "alt": "Shaggy Kare Siyah Puf — görsel 1"
+      }
+    ]
+  },
+  {
+    "name": "Shaggy Yuvarlak Naturel Puf",
+    "slug": "shaggy-yuvarlak-naturel-puf",
+    "sortOrder": 7,
+    "description": null,
+    "images": [
+      {
+        "file": "shaggy-yuvarlak-naturel-puf-1.png",
+        "alt": "Shaggy Yuvarlak Naturel Puf — görsel 1"
+      }
+    ]
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Nardi Folio Sallanan Sandalye",
+    "slug": "nardi-folio-sallanan-sandalye",
+    "sortOrder": 0,
+    "description": "UV Katkılı homojen renkli fiberglass polipropilen reçine\nBOYUT\n47 x 72 x 91",
+    "images": [
+      {
+        "file": "nardi-folio-sallanan-sandalye-1.png",
+        "alt": "Nardi Folio Sallanan Sandalye — görsel 1"
+      },
+      {
+        "file": "nardi-folio-sallanan-sandalye-2.jpg",
+        "alt": "Nardi Folio Sallanan Sandalye — görsel 2"
+      },
+      {
+        "file": "nardi-folio-sallanan-sandalye-3.jpg",
+        "alt": "Nardi Folio Sallanan Sandalye — görsel 3"
+      }
+    ]
+  },
+  {
+    "name": "AR - Drop Yer Minderi",
+    "slug": "ar-drop-yer-minderi",
+    "sortOrder": 1,
+    "description": "Silikon Fiber\nBOYUT\n60x120x70 cm",
+    "images": [
+      {
+        "file": "ar-drop-yer-minderi-1.png",
+        "alt": "AR - Drop Yer Minderi — görsel 1"
+      }
+    ]
+  },
+  {
+    "name": "Peacook Oriental Koltuk",
+    "slug": "peacook-oriental-koltuk",
+    "sortOrder": 2,
+    "description": "Rattan\nBOYUT\n115x75x149  cm",
+    "images": [
+      {
+        "file": "peacook-oriental-koltuk-1.png",
+        "alt": "Peacook Oriental Koltuk — görsel 1"
+      }
+    ]
+  },
+  {
+    "name": "Buddha Standlı Mask",
+    "slug": "buddha-standli-mask",
+    "sortOrder": 3,
+    "description": "BOYUT\n32 x 20 x 65 cm",
+    "images": [
+      {
+        "file": "buddha-standli-mask-1.png",
+        "alt": "Buddha Standlı Mask — görsel 1"
+      }
+    ]
+  }
+]

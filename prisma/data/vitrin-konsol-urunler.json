@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Bonanza Dolap",
+    "slug": "bonanza-dolap",
+    "sortOrder": 0,
+    "description": "Teak\nBOYUT\n120 x 50 x 220 cm",
+    "images": [
+      {
+        "file": "bonanza-dolap-1.png",
+        "alt": "Bonanza Dolap — görsel 1"
+      }
+    ]
+  },
+  {
+    "name": "Bonanza Vitrin",
+    "slug": "bonanza-vitrin",
+    "sortOrder": 1,
+    "description": "Teak\nBOYUT\n100 x 53 x 220 cm",
+    "images": [
+      {
+        "file": "bonanza-vitrin-1.png",
+        "alt": "Bonanza Vitrin — görsel 1"
+      }
+    ]
+  },
+  {
+    "name": "Bongo Büfe",
+    "slug": "bongo-bufe",
+    "sortOrder": 2,
+    "description": "Masif Meşe\nKaplama El İşçiliği",
+    "images": [
+      {
+        "file": "bongo-bufe-1.png",
+        "alt": "Bongo Büfe — görsel 1"
+      }
+    ]
+  },
+  {
+    "name": "Mandala Büfe",
+    "slug": "mandala-bufe",
+    "sortOrder": 3,
+    "description": "BOYUT\n170 x 45 x 170 cm",
+    "images": [
+      {
+        "file": "mandala-bufe-1.png",
+        "alt": "Mandala Büfe — görsel 1"
+      }
+    ]
+  },
+  {
+    "name": "Bongo Kitaplık",
+    "slug": "bongo-kitaplik",
+    "sortOrder": 4,
+    "description": "Teak\nBOYUT\n88 x 32 x 180 cm\n120 x 50 x 220 cm",
+    "images": [
+      {
+        "file": "bongo-kitaplik-1.png",
+        "alt": "Bongo Kitaplık — görsel 1"
+      },
+      {
+        "file": "bongo-kitaplik-2.png",
+        "alt": "Bongo Kitaplık — görsel 2"
+      },
+      {
+        "file": "bongo-kitaplik-3.jpg",
+        "alt": "Bongo Kitaplık — görsel 3"
+      }
+    ]
+  }
+]
